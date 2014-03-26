@@ -1,0 +1,993 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIVE_CONNECTION_TIMEOUT	GameParameters.java	/^   public static final double ALIVE_CONNECTION_TIMEOUT = 25.0;$/;"	f	class:GameParameters
+ALLOTMENT_AMOUNT_TO_GIVE	GameParameters.java	/^   public static final int ALLOTMENT_AMOUNT_TO_GIVE = 100;$/;"	f	class:GameParameters
+ARBITRARY_CONSTANT	DHEngine.java	/^    final int ARBITRARY_CONSTANT = 80; \/* Sort of *\/$/;"	f	class:DHEngine
+AUTHORIZE_STATE	SenderAuthConnection.java	/^   public final static int AUTHORIZE_STATE = 7;$/;"	f	class:SenderAuthConnection
+AUTHSET_STATE	SenderAuthConnection.java	/^   public final static int AUTHSET_STATE = 3;$/;"	f	class:SenderAuthConnection
+AWARD_RESOURCES_TIME	GameParameters.java	/^   public static final double AWARD_RESOURCES_TIME = 60.0 * 15.0;$/;"	f	class:GameParameters
+ActiveMonitorSession	ActiveMonitorSession.java	/^   ActiveMonitorSession(PlayerDB players, Socket connection)$/;"	m	class:ActiveMonitorSession
+ActiveMonitorSession	ActiveMonitorSession.java	/^class ActiveMonitorSession extends MonitorSession {$/;"	c
+AliveCommand	AliveCommand.java	/^class AliveCommand extends Command$/;"	c
+AliveConnection	AliveConnection.java	/^      AliveConnection(InetAddress address, int port, PlayerDB players, $/;"	m	class:AliveConnection
+AliveConnection	AliveConnection.java	/^      AliveConnection(Socket outgoing, double timeToLive)$/;"	m	class:AliveConnection
+AliveConnection	AliveConnection.java	/^class AliveConnection extends OutgoingConnectionHandler$/;"	c
+AuthorizeSetCommand	AuthorizeSetCommand.java	/^class AuthorizeSetCommand extends Command {$/;"	c
+AwardResources	AwardResources.java	/^   AwardResources() {   }$/;"	m	class:AwardResources
+AwardResources	AwardResources.java	/^class AwardResources extends Thread implements RecurredEvent {$/;"	c
+BAD_WAR_PENALTY	GameParameters.java	/^   static final double BAD_WAR_PENALTY = .1;$/;"	f	class:GameParameters
+CHANGE_AMOUNT_FOR_SYNTESIZE	GameParameters.java	/^   static final long CHANGE_AMOUNT_FOR_SYNTESIZE = 2;$/;"	f	class:GameParameters
+CHECK_FOR_LIVING_MAXIMUM_TIME	GameParameters.java	/^   public static final double CHECK_FOR_LIVING_MAXIMUM_TIME = 20.0 * 60.0;$/;"	f	class:GameParameters
+CHECK_FOR_LIVING_MINIMUM_TIME	GameParameters.java	/^   public static final double CHECK_FOR_LIVING_MINIMUM_TIME = 10.0 * 60.0;$/;"	f	class:GameParameters
+COMMAND_ERROR	CommandException.java	/^      static final String COMMAND_ERROR   = Directive.COMMAND_ERROR_DIRECTIVE;$/;"	f	class:CommandException
+COMMAND_ERROR_DIRECTIVE	Directive.java	/^   public static final String COMMAND_ERROR_DIRECTIVE = "COMMAND_ERROR: ";$/;"	f	class:Directive
+COMMAND_STRING	AliveCommand.java	/^      public static final String COMMAND_STRING = "ALIVE";$/;"	f	class:AliveCommand
+COMMAND_STRING	AuthorizeSetCommand.java	/^   public static String COMMAND_STRING = "AUTHORIZE_SET";$/;"	f	class:AuthorizeSetCommand
+COMMAND_STRING	ChangePasswordCommand.java	/^   public static final String COMMAND_STRING = "CHANGE_PASSWORD";$/;"	f	class:ChangePasswordCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "GET_GAME_IDENTS";$/;"	f	class:GetGameIdents
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "HELP";$/;"	f	class:HelpCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "PARTICIPANT_HOST_PORT";$/;"	f	class:PlayerHostPortCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "PARTICIPANT_STATUS";$/;"	f	class:PlayerStatusCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "PARTICIPANT_STATUS_CRACK";$/;"	f	class:PlayerStatusCrackCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "RANDOM_PARTICIPANT_HOST_PORT";$/;"	f	class:RandomPlayerHostPortCommandCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "VALUES";$/;"	f	class:ValuesCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "WAR_DECLARE";$/;"	f	class:WarCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING = "WAR_STATUS";$/;"	f	class:WarStatusCommand
+COMMAND_STRING	Command.java	/^   public static final String COMMAND_STRING =$/;"	f	class:PlayerMonitorPasswordCrackCommand
+COMMAND_STRING	DefendCommand.java	/^      public static final String COMMAND_STRING = "WAR_DEFEND";$/;"	f	class:DefendCommand
+COMMAND_STRING	GetCertificateCommand.java	/^	public static final String COMMAND_STRING = "GET_CERTIFICATE";$/;"	f	class:GetCertificateCommand
+COMMAND_STRING	GetMonitorKeyCommand.java	/^	public static final String COMMAND_STRING = "GET_MONITOR_KEY";$/;"	f	class:GetMonitorKeyCommand
+COMMAND_STRING	HostPortCommand.java	/^      public static final String COMMAND_STRING = "HOST_PORT";$/;"	f	class:HostPortCommand
+COMMAND_STRING	IdentCommand.java	/^   public final static String COMMAND_STRING = "IDENT";$/;"	f	class:IdentCommand
+COMMAND_STRING	MakeCertificateCommand.java	/^	public static String COMMAND_STRING = "MAKE_CERTIFICATE";$/;"	f	class:MakeCertificateCommand
+COMMAND_STRING	PlayerPasswordCommand.java	/^      public static final String COMMAND_STRING = "PASSWORD";$/;"	f	class:PlayerPasswordCommand
+COMMAND_STRING	PublicKeyCommand.java	/^	public static String COMMAND_STRING = "PUBLIC_KEY";$/;"	f	class:PublicKeyCommand
+COMMAND_STRING	QuitCommand.java	/^      public static final String COMMAND_STRING = "QUIT";$/;"	f	class:QuitCommand
+COMMAND_STRING	RoundsCommand.java	/^   public static String COMMAND_STRING = "ROUNDS";$/;"	f	class:RoundsCommand
+COMMAND_STRING	SignOffCommand.java	/^      public static final String COMMAND_STRING = "SIGN_OFF";$/;"	f	class:SignOffCommand
+COMMAND_STRING	SubSetACommand.java	/^   public static String COMMAND_STRING = "SUBSET_A";$/;"	f	class:SubSetACommand
+COMMAND_STRING	SubSetJCommand.java	/^   public static String COMMAND_STRING = "SUBSET_J";$/;"	f	class:SubSetJCommand
+COMMAND_STRING	SubSetKCommand.java	/^   public static String COMMAND_STRING = "SUBSET_K";$/;"	f	class:SubSetKCommand
+COMMAND_STRING	SynthesizeCommand.java	/^      public static final String COMMAND_STRING = "SYNTHESIZE";$/;"	f	class:SynthesizeCommand
+COMMAND_STRING	TradeRequestCommand.java	/^   public static final String COMMAND_STRING = "TRANSFER_REQUEST";$/;"	f	class:TradeRequestCommand
+COMMAND_STRING	TradeResponseCommand.java	/^   public static final String COMMAND_STRING = "TRANSFER_RESPONSE";$/;"	f	class:TradeResponseCommand
+COMMAND_STRING	TransactionResponseCommand.java	/^      public static final String COMMAND_STRING = "ERROR_RESPONSE";$/;"	f	class:TransactionResponseCommand
+COMMAND_STRING	TransferRequestCommand.java	/^   public static final String COMMAND_STRING = "TRANSFER_REQUEST";$/;"	f	class:TransferRequestCommand
+COMMAND_STRING	TransferResponseCommand.java	/^   public static final String COMMAND_STRING = "TRANSFER_RESPONSE";$/;"	f	class:TransferResponseCommand
+COMMAND_STRING	WarTruceOfferCommand.java	/^      public static final String COMMAND_STRING = "WAR_TRUCE_OFFER";$/;"	f	class:WarTruceOfferCommand
+COMMAND_STRING	WarTruceResponseCommand.java	/^      public static final String COMMAND_STRING = "WAR_TRUCE_RESPONSE";$/;"	f	class:WarTruceResponseCommand
+COMMENT_DIRECTIVE	Directive.java	/^   public static final String COMMENT_DIRECTIVE       = "COMMENT: ";$/;"	f	class:Directive
+CRACK_PARTICIPANT_STATUS_FACTOR	GameParameters.java	/^   public static final double CRACK_PARTICIPANT_STATUS_FACTOR = 50.0;$/;"	f	class:GameParameters
+CRACK_PASSWORD_FACTOR	GameParameters.java	/^   public static final double CRACK_PASSWORD_FACTOR = 100.0;$/;"	f	class:GameParameters
+ChangePasswordCommand	ChangePasswordCommand.java	/^class ChangePasswordCommand extends Command {$/;"	c
+CheckForLiving	CheckForLiving.java	/^	CheckForLiving() { }$/;"	m	class:CheckForLiving
+CheckForLiving	CheckForLiving.java	/^class CheckForLiving extends Thread implements RecurredEvent {$/;"	c
+Cipher	Cipher.java	/^   Cipher(BigInteger bi) {$/;"	m	class:Cipher
+Cipher	Cipher.java	/^class Cipher {$/;"	c
+ClearCommandCounter	ClearCommandCounter.java	/^      ClearCommandCounter()$/;"	m	class:ClearCommandCounter
+ClearCommandCounter	ClearCommandCounter.java	/^class ClearCommandCounter extends Thread implements RecurredEvent$/;"	c
+ClientApplet	ClientApplet.java	/^public class ClientApplet extends java.applet.Applet$/;"	c
+Clients	ClientApplet.java	/^   public Clients(TextField st, TextField so, TextArea ti, ClientApplet ca, String nm)$/;"	m	class:Clients
+Clients	ClientApplet.java	/^class Clients implements Runnable$/;"	c
+Command	Command.java	/^abstract class Command {$/;"	c
+CommandException	CommandException.java	/^      CommandException(String newMessage) {  message = newMessage;  }$/;"	m	class:CommandException
+CommandException	CommandException.java	/^class CommandException extends Exception {$/;"	c
+Computers	Wealth.java	/^   Computers(String n, ResourceValue rv) { super(n, rv, 0); }$/;"	m	class:Computers
+Computers	Wealth.java	/^class Computers extends Resource implements Serializable {$/;"	c
+ConnectionHandler	ConnectionHandler.java	/^   ConnectionHandler(Socket incoming, double timeToLive) {$/;"	m	class:ConnectionHandler
+ConnectionHandler	ConnectionHandler.java	/^   protected ConnectionHandler(double timeToLive) {$/;"	m	class:ConnectionHandler
+ConnectionHandler	ConnectionHandler.java	/^abstract class ConnectionHandler extends Thread implements TimedExistance {$/;"	c
+ContestTimer	ContestTimer.java	/^public class ContestTimer {$/;"	c
+Currency	Wealth.java	/^   Currency(String n, ResourceValue rv, long award) {  super(n, rv, award);  }$/;"	m	class:Currency
+Currency	Wealth.java	/^class Currency extends Resource {$/;"	c
+DHEngine	DHEngine.java	/^    DHEngine() {$/;"	m	class:DHEngine
+DHEngine	DHEngine.java	/^    DHEngine(DHKey dhk) {$/;"	m	class:DHEngine
+DHEngine	DHEngine.java	/^class DHEngine {$/;"	c
+DHKey	PlantDHKey.java	/^   DHKey (BigInteger P, BigInteger G, String what) {$/;"	m	class:DHKey
+DHKey	PlantDHKey.java	/^class DHKey implements Serializable {$/;"	c
+DH_KEY_FILE	GameParameters.java	/^   static final String DH_KEY_FILE = "DHKey";$/;"	f	class:GameParameters
+Decrypt	Cipher.java	/^    String Decrypt(String ciphertext) {$/;"	m	class:Cipher
+DefendCommand	DefendCommand.java	/^class DefendCommand extends Command$/;"	c
+Description	PlantDHKey.java	/^   String Description;$/;"	f	class:DHKey
+Description	RSA.java	/^	String Description;$/;"	f	class:RSA
+Directive	Directive.java	/^class Directive {$/;"	c
+E	RSA.java	/^	private static BigInteger E = new BigInteger("65537");$/;"	f	class:RSA	file:
+Economy	Economy.java	/^   Economy() {$/;"	m	class:Economy
+Economy	Economy.java	/^class Economy implements Serializable {$/;"	c
+EconomyValues	EconomyValues.java	/^public class EconomyValues {$/;"	c
+Encrypt	Cipher.java	/^   String Encrypt(String plaintext) {$/;"	m	class:Cipher
+FOUR	RSA.java	/^	private static BigInteger FOUR = new BigInteger("4");$/;"	f	class:RSA	file:
+GAME_DIRECTORY	GameParameters.java	/^   public static String GAME_DIRECTORY = "";$/;"	f	class:GameParameters
+GameParameters	GameParameters.java	/^class GameParameters {$/;"	c
+Gauss	Gauss.java	/^public class Gauss {$/;"	c
+GetCertificateCommand	GetCertificateCommand.java	/^class GetCertificateCommand extends Command {$/;"	c
+GetGameIdents	Command.java	/^class GetGameIdents extends Command {$/;"	c
+GetMonitorKeyCommand	GetMonitorKeyCommand.java	/^class GetMonitorKeyCommand extends Command {$/;"	c
+HOST_PORT_LOOKUP_TIMEOUT	GameParameters.java	/^   public static final double HOST_PORT_LOOKUP_TIMEOUT = 20.0;$/;"	f	class:GameParameters
+HelpCommand	Command.java	/^class HelpCommand extends Command {$/;"	c
+HostPortCommand	HostPortCommand.java	/^class HostPortCommand extends Command$/;"	c
+INCOMING_CONNECTION_TIMEOUT	GameParameters.java	/^   public static final double INCOMING_CONNECTION_TIMEOUT = 30 * 60.0;$/;"	f	class:GameParameters
+IdentCommand	IdentCommand.java	/^   IdentCommand() { }$/;"	m	class:IdentCommand
+IdentCommand	IdentCommand.java	/^   IdentCommand(String args[])  throws CommandException {$/;"	m	class:IdentCommand
+IdentCommand	IdentCommand.java	/^class IdentCommand  extends Command {$/;"	c
+IncomingConnectionHandler	IncomingConnectionHandler.java	/^   IncomingConnectionHandler(Socket incoming, int num, MonitorServer svr) {$/;"	m	class:IncomingConnectionHandler
+IncomingConnectionHandler	IncomingConnectionHandler.java	/^class IncomingConnectionHandler extends ConnectionHandler {$/;"	c
+InitializeCertAuthority	MonitorSession.java	/^   private void InitializeCertAuthority() {$/;"	m	class:MonitorSession	file:
+InsufficientResourceException	InsufficientResourceException.java	/^      InsufficientResourceException(String newMessage)$/;"	m	class:InsufficientResourceException
+InsufficientResourceException	InsufficientResourceException.java	/^class InsufficientResourceException extends Exception $/;"	c
+InvalidateCertAuthority	MonitorSession.java	/^   private void InvalidateCertAuthority() {$/;"	m	class:MonitorSession	file:
+LOSER_BATTLE_PERCENT_LOST_MAX	GameParameters.java	/^   static final double LOSER_BATTLE_PERCENT_LOST_MAX = 0.60;$/;"	f	class:GameParameters
+LOSER_BATTLE_PERCENT_LOST_MIN	GameParameters.java	/^   static final double LOSER_BATTLE_PERCENT_LOST_MIN = 0.25;$/;"	f	class:GameParameters
+MAX_COMMAND_RETRY	GameParameters.java	/^   public static final int MAX_COMMAND_RETRY            = 10;$/;"	f	class:GameParameters
+MAX_COMMAND_RETRY_ON_REQUIRE	GameParameters.java	/^   public static final int MAX_COMMAND_RETRY_ON_REQUIRE = MAX_COMMAND_RETRY\/2;$/;"	f	class:GameParameters
+MAX_CONNECTIONS_PER_PERIOD	GameParameters.java	/^   public static final int MAX_CONNECTIONS_PER_PERIOD = 150;$/;"	f	class:GameParameters
+MAX_ROUNDS	GameParameters.java	/^   static final int MAX_ROUNDS = 20;$/;"	f	class:GameParameters
+MINIMUM_PLAYERS_THAT_MUST_HOLD_EACH_RESOURCE	GameParameters.java	/^   public static int MINIMUM_PLAYERS_THAT_MUST_HOLD_EACH_RESOURCE = 0;$/;"	f	class:GameParameters
+MONITOR_CERT	GameParameters.java	/^   static final String MONITOR_CERT = "CACert";$/;"	f	class:GameParameters
+MONITOR_IDENTITY	GameParameters.java	/^   static final String MONITOR_IDENTITY = "MONITOR";$/;"	f	class:GameParameters
+MONITOR_MARKUP_PERCENT	GameParameters.java	/^   public static final double MONITOR_MARKUP_PERCENT = .10;$/;"	f	class:GameParameters
+MONITOR_MAX_CONNECTIONS	GameParameters.java	/^   public static final int MONITOR_MAX_CONNECTIONS = 100;$/;"	f	class:GameParameters
+MONITOR_PASSWORD_DIRECTIVE	Directive.java	/^   public static final String MONITOR_PASSWORD_DIRECTIVE $/;"	f	class:Directive
+MONITOR_RSAPRIV	GameParameters.java	/^   static final String MONITOR_RSAPRIV = "RSAPriv";$/;"	f	class:GameParameters
+MONITOR_RSAPUB	GameParameters.java	/^   static final String MONITOR_RSAPUB = "RSAPub";$/;"	f	class:GameParameters
+MONITOR_SERVER_PORT	GameParameters.java	/^   public static int MONITOR_SERVER_PORT = 8150;$/;"	f	class:GameParameters
+MONITOR_VERSION	GameParameters.java	/^   static final String MONITOR_VERSION = "2.2.1";$/;"	f	class:GameParameters
+MakeCertificateCommand	MakeCertificateCommand.java	/^	public MakeCertificateCommand() {$/;"	m	class:MakeCertificateCommand
+MakeCertificateCommand	MakeCertificateCommand.java	/^class MakeCertificateCommand extends Command {$/;"	c
+MakeKey	DHEngine.java	/^    private DHKey MakeKey(int size, int quality) { $/;"	m	class:DHEngine	file:
+MakeStandings	MakeStandings.java	/^   MakeStandings(String filename) {$/;"	m	class:MakeStandings
+MakeStandings	MakeStandings.java	/^public class MakeStandings {$/;"	c
+MonitorServer	MonitorServer.java	/^   public MonitorServer() { this(new PlayerDB());  }$/;"	m	class:MonitorServer
+MonitorServer	MonitorServer.java	/^   public MonitorServer(PlayerDB pdb) {$/;"	m	class:MonitorServer
+MonitorServer	MonitorServer.java	/^class MonitorServer extends Thread {$/;"	c
+MonitorSession	MonitorSession.java	/^   MonitorSession(PlayerDB players) {$/;"	m	class:MonitorSession
+MonitorSession	MonitorSession.java	/^class MonitorSession {$/;"	c
+MonitorSessionCreationException	MonitorSessionCreationException.java	/^      MonitorSessionCreationException(String newMessage)$/;"	m	class:MonitorSessionCreationException
+MonitorSessionCreationException	MonitorSessionCreationException.java	/^class MonitorSessionCreationException extends MonitorSessionException$/;"	c
+MonitorSessionException	MonitorSessionException.java	/^      MonitorSessionException(String newMessage)$/;"	m	class:MonitorSessionException
+MonitorSessionException	MonitorSessionException.java	/^public class MonitorSessionException extends Exception$/;"	c
+NO_WAR_WINNER	GameParameters.java	/^   static final String NO_WAR_WINNER = "NONE";$/;"	f	class:GameParameters
+OutgoingConnectionHandler	OutgoingConnectionHandler.java	/^   OutgoingConnectionHandler(InetAddress address, int port,$/;"	m	class:OutgoingConnectionHandler
+OutgoingConnectionHandler	OutgoingConnectionHandler.java	/^   OutgoingConnectionHandler(Socket outgoing, double timeToLive) {$/;"	m	class:OutgoingConnectionHandler
+OutgoingConnectionHandler	OutgoingConnectionHandler.java	/^class OutgoingConnectionHandler extends ConnectionHandler {$/;"	c
+PADSIZE	Cipher.java	/^   final int PADSIZE=40; \/* Plaintext buffer *\/ $/;"	f	class:Cipher
+PARTICIPANT_DATABASE_IS_STATIC	GameParameters.java	/^   public static boolean PARTICIPANT_DATABASE_IS_STATIC = false;$/;"	f	class:GameParameters
+PARTICIPANT_DB_FILE	GameParameters.java	/^   static final String PARTICIPANT_DB_FILE = "players.db";$/;"	f	class:GameParameters
+PARTICIPANT_DB_SERIALIZE_TIME	GameParameters.java	/^   public static final double PARTICIPANT_DB_SERIALIZE_TIME = 1.0 * 60.0;$/;"	f	class:GameParameters
+PARTICIPANT_HOST_PORT_COMPUTER_COST	GameParameters.java	/^   static final int PARTICIPANT_HOST_PORT_COMPUTER_COST = 100;$/;"	f	class:GameParameters
+PARTICIPANT_PASSWORD_CHECKSUM_DIRECTIVE	Directive.java	/^   public static final String PARTICIPANT_PASSWORD_CHECKSUM_DIRECTIVE $/;"	f	class:Directive
+PASSWORD_LENGTH	GameParameters.java	/^   static final int PASSWORD_LENGTH = 98;$/;"	f	class:GameParameters
+PILLAGE_PERCENT_MAX	GameParameters.java	/^   static final double PILLAGE_PERCENT_MAX = .5;$/;"	f	class:GameParameters
+PILLAGE_PERCENT_MIN	GameParameters.java	/^   static final double PILLAGE_PERCENT_MIN = .1;$/;"	f	class:GameParameters
+PUBLICKEY_STATE	SenderAuthConnection.java	/^   public final static int PUBLICKEY_STATE = 1;$/;"	f	class:SenderAuthConnection
+PassiveMonitorSession	PassiveMonitorSession.java	/^   PassiveMonitorSession(PlayerDB players, Socket incoming)$/;"	m	class:PassiveMonitorSession
+PassiveMonitorSession	PassiveMonitorSession.java	/^class PassiveMonitorSession extends MonitorSession {$/;"	c
+PlantDHKey	PlantDHKey.java	/^public class PlantDHKey {$/;"	c
+Player	Player.java	/^   Player(String who, Economy economy) {$/;"	m	class:Player
+Player	Player.java	/^class Player implements Serializable {$/;"	c
+PlayerCertificate	PlayerCertificate.java	/^	public PlayerCertificate(BigInteger hash, String name) {$/;"	m	class:PlayerCertificate
+PlayerCertificate	PlayerCertificate.java	/^public class PlayerCertificate implements Serializable {$/;"	c
+PlayerCommandCounter	PlayerCommandCounter.java	/^      PlayerCommandCounter()$/;"	m	class:PlayerCommandCounter
+PlayerCommandCounter	PlayerCommandCounter.java	/^class PlayerCommandCounter$/;"	c
+PlayerDB	PlayerDB.java	/^   PlayerDB() {$/;"	m	class:PlayerDB
+PlayerDB	PlayerDB.java	/^class PlayerDB implements Serializable { $/;"	c
+PlayerHostPortCommand	Command.java	/^class PlayerHostPortCommand extends Command {$/;"	c
+PlayerMonitorPasswordCrackCommand	Command.java	/^class PlayerMonitorPasswordCrackCommand extends Command {$/;"	c
+PlayerPasswordCommand	PlayerPasswordCommand.java	/^class PlayerPasswordCommand extends Command$/;"	c
+PlayerStatusCommand	Command.java	/^class PlayerStatusCommand extends Command {$/;"	c
+PlayerStatusCrackCommand	Command.java	/^class PlayerStatusCrackCommand extends Command {$/;"	c
+PubRSA	PubRSA.java	/^	public PubRSA(BigInteger eVal, BigInteger nVal) {$/;"	m	class:PubRSA
+PubRSA	PubRSA.java	/^public class PubRSA implements Serializable {$/;"	c
+PublicKeyCommand	PublicKeyCommand.java	/^class PublicKeyCommand extends Command {$/;"	c
+QuitCommand	QuitCommand.java	/^class QuitCommand  extends Command$/;"	c
+RADIX	Cipher.java	/^   final int RADIX=32;$/;"	f	class:Cipher
+RADIX	DHEngine.java	/^    final int RADIX = 32;              \/* All Keys are output base 32 *\/$/;"	f	class:DHEngine
+REQUIRE_DIRECTIVE	Directive.java	/^   public static final String REQUIRE_DIRECTIVE       = "REQUIRE: ";$/;"	f	class:Directive
+RESULT_DIRECTIVE	Directive.java	/^   public static final String RESULT_DIRECTIVE        = "RESULT: ";$/;"	f	class:Directive
+ROUNDS_STATE	SenderAuthConnection.java	/^   public final static int ROUNDS_STATE = 2;$/;"	f	class:SenderAuthConnection
+RSA	RSA.java	/^	public RSA() {$/;"	m	class:RSA
+RSA	RSA.java	/^public class RSA implements Serializable {$/;"	c
+RandomPlayerHostPortCommandCommand	Command.java	/^class RandomPlayerHostPortCommandCommand extends Command {$/;"	c
+RandomRecurringEvent	RandomRecurringEvent.java	/^      RandomRecurringEvent(Class myClass, Object o, double min, double max)$/;"	m	class:RandomRecurringEvent
+RandomRecurringEvent	RandomRecurringEvent.java	/^class RandomRecurringEvent extends RecurringEvent$/;"	c
+RawMaterial	Wealth.java	/^   RawMaterial(String n, ResourceValue rv, long award) { super(n, rv, award); }$/;"	m	class:RawMaterial
+RawMaterial	Wealth.java	/^class RawMaterial extends Resource {$/;"	c
+ReadPlayerDB	ReadPlayerDB.java	/^   ReadPlayerDB(String filename) {$/;"	m	class:ReadPlayerDB
+ReadPlayerDB	ReadPlayerDB.java	/^class ReadPlayerDB {$/;"	c
+RecieverAuthConnection	RecieverAuthConnection.java	/^   public RecieverAuthConnection(PlayerDB players, Player recv, Player send,$/;"	m	class:RecieverAuthConnection
+RecieverAuthConnection	RecieverAuthConnection.java	/^class RecieverAuthConnection extends OutgoingConnectionHandler {$/;"	c
+RecurredEvent	RecurredEvent.java	/^interface RecurredEvent$/;"	i
+RecurringEvent	RecurringEvent.java	/^      RecurringEvent(Class myClass, Object o, double seconds)$/;"	m	class:RecurringEvent
+RecurringEvent	RecurringEvent.java	/^class RecurringEvent extends Thread implements Serializable$/;"	c
+ReportTime	ContestTimer.java	/^   public ReportTime (ReportTimeStarter timer) {$/;"	m	class:ReportTime
+ReportTime	ContestTimer.java	/^class ReportTime extends Thread {$/;"	c
+ReportTimeStarter	ContestTimer.java	/^   public ReportTimeStarter (String args[]) { this.args = args; }$/;"	m	class:ReportTimeStarter
+ReportTimeStarter	ContestTimer.java	/^class ReportTimeStarter {$/;"	c
+Resource	Wealth.java	/^   Resource(String n, ResourceValue rv, long award)$/;"	m	class:Resource
+Resource	Wealth.java	/^   Resource(String n, ResourceValue rv, long award, long start)$/;"	m	class:Resource
+Resource	Wealth.java	/^abstract class Resource implements Serializable {$/;"	c
+ResourceValue	ResourceValue.java	/^   ResourceValue(String n) {$/;"	m	class:ResourceValue
+ResourceValue	ResourceValue.java	/^   ResourceValue(String n, double r) {$/;"	m	class:ResourceValue
+ResourceValue	ResourceValue.java	/^class ResourceValue implements Serializable {$/;"	c
+RoundsCommand	RoundsCommand.java	/^class RoundsCommand extends Command {$/;"	c
+SECONDS_ALIVE_FOR_RESOURCES	GameParameters.java	/^   static final double SECONDS_ALIVE_FOR_RESOURCES = 60.0 * 15.0;$/;"	f	class:GameParameters
+SECONDS_BETWEEN_RANDOM_PLAYER	GameParameters.java	/^   static final double SECONDS_BETWEEN_RANDOM_PLAYER = 60.0 * 3.0;$/;"	f	class:GameParameters
+SERVICE_CONTACT	GameParameters.java	/^   static final String SERVICE_CONTACT = "franco@helios.ececs.uc.edu";$/;"	f	class:GameParameters
+SUBSETA_STATE	SenderAuthConnection.java	/^   public final static int SUBSETA_STATE = 4;$/;"	f	class:SenderAuthConnection
+SUBSETJ_STATE	SenderAuthConnection.java	/^   public final static int SUBSETJ_STATE = 5;$/;"	f	class:SenderAuthConnection
+SUBSETK_STATE	SenderAuthConnection.java	/^   public final static int SUBSETK_STATE = 6;$/;"	f	class:SenderAuthConnection
+SenderAuthConnection	SenderAuthConnection.java	/^   public SenderAuthConnection(PlayerDB players, Player send, Player recv,$/;"	m	class:SenderAuthConnection
+SenderAuthConnection	SenderAuthConnection.java	/^class SenderAuthConnection extends OutgoingConnectionHandler {$/;"	c
+SerializePlayerDB	SerializePlayerDB.java	/^      SerializePlayerDB()$/;"	m	class:SerializePlayerDB
+SerializePlayerDB	SerializePlayerDB.java	/^class SerializePlayerDB extends Thread implements RecurredEvent$/;"	c
+SignOffCommand	SignOffCommand.java	/^class SignOffCommand extends Command$/;"	c
+SillyPlayerWrapper	SillyPlayerWrapper.java	/^   SillyPlayerWrapper(String foo, Economy e)  { super(foo, e);}$/;"	m	class:SillyPlayerWrapper
+SillyPlayerWrapper	SillyPlayerWrapper.java	/^class SillyPlayerWrapper extends Player {$/;"	c
+StringToBytes	Cipher.java	/^   private byte[] StringToBytes(String input) {$/;"	m	class:Cipher	file:
+StripPadding	Cipher.java	/^   private String StripPadding(byte input[]){$/;"	m	class:Cipher	file:
+SubSetACommand	SubSetACommand.java	/^class SubSetACommand extends Command {$/;"	c
+SubSetJCommand	SubSetJCommand.java	/^class SubSetJCommand extends Command {$/;"	c
+SubSetKCommand	SubSetKCommand.java	/^class SubSetKCommand extends Command {$/;"	c
+SynthesizeCommand	SynthesizeCommand.java	/^class SynthesizeCommand extends Command$/;"	c
+TRANSACTION_CONFIRM_CONNECTION_TIMEOUT	GameParameters.java	/^   public static final double TRANSACTION_CONFIRM_CONNECTION_TIMEOUT = 180.0;$/;"	f	class:GameParameters
+TRANSFER_DIRECTIVE	Directive.java	/^   public static final String TRANSFER_DIRECTIVE$/;"	f	class:Directive
+TimedExistance	TimedExistance.java	/^interface TimedExistance$/;"	i
+Timer	Timer.java	/^   public Timer(double a, TimedExistance who) {$/;"	m	class:Timer
+Timer	Timer.java	/^class Timer extends Thread implements TimedExistance {$/;"	c
+TradeRequestCommand	TradeRequestCommand.java	/^class TradeRequestCommand extends Command {$/;"	c
+TradeResponseCommand	TradeResponseCommand.java	/^class TradeResponseCommand extends TransactionResponseCommand {$/;"	c
+TransactionConfirmConnection	TransactionConfirmConnection.java	/^   TransactionConfirmConnection(InetAddress address, int port,$/;"	m	class:TransactionConfirmConnection
+TransactionConfirmConnection	TransactionConfirmConnection.java	/^   TransactionConfirmConnection(PlayerDB players, Player player,$/;"	m	class:TransactionConfirmConnection
+TransactionConfirmConnection	TransactionConfirmConnection.java	/^   TransactionConfirmConnection(Socket outgoing, double timeToLive) {$/;"	m	class:TransactionConfirmConnection
+TransactionConfirmConnection	TransactionConfirmConnection.java	/^class TransactionConfirmConnection extends OutgoingConnectionHandler {$/;"	c
+TransactionResponseCommand	TransactionResponseCommand.java	/^class TransactionResponseCommand extends Command$/;"	c
+TransferRequestCommand	TransferRequestCommand.java	/^class TransferRequestCommand extends Command {$/;"	c
+TransferResponseCommand	TransferResponseCommand.java	/^class TransferResponseCommand extends TransactionResponseCommand {$/;"	c
+UnknownResourceException	UnknownResourceException.java	/^      UnknownResourceException(String newMessage)$/;"	m	class:UnknownResourceException
+UnknownResourceException	UnknownResourceException.java	/^class UnknownResourceException extends Exception $/;"	c
+VALUE_OF_NON_EXISTENT_RESOURCE	GameParameters.java	/^   static final double VALUE_OF_NON_EXISTENT_RESOURCE = 50.0;$/;"	f	class:GameParameters
+ValidCommandHash	Command.java	/^   ValidCommandHash() {$/;"	m	class:ValidCommandHash
+ValidCommandHash	Command.java	/^class ValidCommandHash extends Hashtable {$/;"	c
+ValuesCommand	Command.java	/^class  ValuesCommand extends Command {$/;"	c
+Vehicles	Wealth.java	/^   Vehicles(String n, ResourceValue rv)  {  super(n, rv, 0);  }$/;"	m	class:Vehicles
+Vehicles	Wealth.java	/^class Vehicles extends Resource implements Serializable {$/;"	c
+WAITING_DIRECTIVE	Directive.java	/^   public static final String WAITING_DIRECTIVE       = "WAITING: ";$/;"	f	class:Directive
+WAR_DECLARATION_DIRECTIVE	Directive.java	/^   public static final String WAR_DECLARATION_DIRECTIVE$/;"	f	class:Directive
+WAR_RUNNER_MAXIMUM_TIME	GameParameters.java	/^   public static final double WAR_RUNNER_MAXIMUM_TIME = 5.0 * 60.0;$/;"	f	class:GameParameters
+WAR_RUNNER_MINIMUM_TIME	GameParameters.java	/^   public static final double WAR_RUNNER_MINIMUM_TIME = 5.0 * 60.0;$/;"	f	class:GameParameters
+WAR_TRUCE_OFFER_DIRECTIVE	Directive.java	/^   public static final String WAR_TRUCE_OFFER_DIRECTIVE$/;"	f	class:Directive
+WAR_TRUCE_WINNER	GameParameters.java	/^   static final String WAR_TRUCE_WINNER = "TRUCE";$/;"	f	class:GameParameters
+WINNER_BATTLE_PERCENT_LOST_MAX	GameParameters.java	/^   static final double WINNER_BATTLE_PERCENT_LOST_MAX = 0.15;$/;"	f	class:GameParameters
+WINNER_BATTLE_PERCENT_LOST_MIN	GameParameters.java	/^   static final double WINNER_BATTLE_PERCENT_LOST_MIN = 0.0;$/;"	f	class:GameParameters
+War	War.java	/^      War(PlayerDB pdb, Player initiator, int weap, int veh, Player vict)$/;"	m	class:War
+War	War.java	/^class War implements Serializable$/;"	c
+WarCommand	Command.java	/^class WarCommand extends Command {$/;"	c
+WarDefendConnection	WarDefendConnection.java	/^      WarDefendConnection(InetAddress address, int port, PlayerDB players, $/;"	m	class:WarDefendConnection
+WarDefendConnection	WarDefendConnection.java	/^      WarDefendConnection(PlayerDB players, Player player, String defend)$/;"	m	class:WarDefendConnection
+WarDefendConnection	WarDefendConnection.java	/^      WarDefendConnection(Socket outgoing, double timeToLive)$/;"	m	class:WarDefendConnection
+WarDefendConnection	WarDefendConnection.java	/^class WarDefendConnection extends OutgoingConnectionHandler$/;"	c
+WarRunner	WarRunner.java	/^      WarRunner()$/;"	m	class:WarRunner
+WarRunner	WarRunner.java	/^class WarRunner extends Thread implements RecurredEvent, Serializable$/;"	c
+WarStatusCommand	Command.java	/^class WarStatusCommand extends Command {$/;"	c
+WarTruceOfferCommand	WarTruceOfferCommand.java	/^class WarTruceOfferCommand extends Command$/;"	c
+WarTruceResponseCommand	WarTruceResponseCommand.java	/^class WarTruceResponseCommand extends TransactionResponseCommand$/;"	c
+Wealth	Wealth.java	/^   Wealth(Economy econ) {$/;"	m	class:Wealth
+Wealth	Wealth.java	/^class Wealth implements Serializable {$/;"	c
+Weapons	Wealth.java	/^   Weapons(String n, ResourceValue rv) { super(n, rv, 0);  }$/;"	m	class:Weapons
+Weapons	Wealth.java	/^class Weapons extends Resource implements Serializable {$/;"	c
+absoluteFinishTime	Timer.java	/^   long absoluteStartTime, absoluteFinishTime;$/;"	f	class:Timer
+absoluteStartTime	Timer.java	/^   long absoluteStartTime, absoluteFinishTime;$/;"	f	class:Timer
+action	ClientApplet.java	/^   public boolean action (Event evt, Object obj)$/;"	m	class:ClientApplet
+add	PlayerDB.java	/^   synchronized void add(Player p) {$/;"	m	class:PlayerDB
+addWar	Player.java	/^   void addWar(War war, Player enemy) {$/;"	m	class:Player
+address	Command.java	/^   InetAddress address;$/;"	f	class:WarCommand
+address	HostPortCommand.java	/^      InetAddress address;$/;"	f	class:HostPortCommand
+addressConnectedTo	PassiveMonitorSession.java	/^   InetAddress addressConnectedTo;$/;"	f	class:PassiveMonitorSession
+addressLastSeenOn	Player.java	/^   InetAddress addressLastSeenOn;$/;"	f	class:Player
+aliveCheck	MonitorSession.java	/^   public boolean aliveCheck(InetAddress address, int port, boolean$/;"	m	class:MonitorSession
+allocate	Wealth.java	/^   protected synchronized void allocate() {$/;"	m	class:Resource
+allocateResourcesToMonitor	Wealth.java	/^   public void allocateResourcesToMonitor(Date lastAliveCheck) {$/;"	m	class:Wealth
+allocateResourcesToOwner	Wealth.java	/^   public void allocateResourcesToOwner() {$/;"	m	class:Wealth
+amount	Wealth.java	/^   long amount;$/;"	f	class:Resource
+amountCommitted	Player.java	/^   void amountCommitted (long amt) {       \/\/ 11\/12\/10$/;"	m	class:Player
+amountFrom	TradeRequestCommand.java	/^   long amountFrom;$/;"	f	class:TradeRequestCommand
+amountFrom	TransferRequestCommand.java	/^   long amountFrom;$/;"	f	class:TransferRequestCommand
+amountToSleep	Timer.java	/^   long amountToSleep;$/;"	f	class:Timer
+amt_committed	Player.java	/^   long amt_committed;                     \/\/ 11\/12\/10$/;"	f	class:Player
+argnum	AuthorizeSetCommand.java	/^   private int argnum;$/;"	f	class:AuthorizeSetCommand	file:
+argnum	SubSetACommand.java	/^   private int argnum;$/;"	f	class:SubSetACommand	file:
+argnum	SubSetJCommand.java	/^   private int argnum;$/;"	f	class:SubSetJCommand	file:
+argnum	SubSetKCommand.java	/^   private int argnum;$/;"	f	class:SubSetKCommand	file:
+args	ContestTimer.java	/^   String args[];$/;"	f	class:ReportTimeStarter
+arguments	Command.java	/^   String arguments[];$/;"	f	class:Command
+atLeast	RandomRecurringEvent.java	/^      long atLeast, noMoreThan;$/;"	f	class:RandomRecurringEvent
+atWarWith	Player.java	/^   boolean atWarWith(Player enemy) {$/;"	m	class:Player
+attacker	War.java	/^      Player attacker, victim;$/;"	f	class:War
+attackerVehicles	War.java	/^      int attackerWeapons, attackerVehicles;$/;"	f	class:War
+attackerWeapons	War.java	/^      int attackerWeapons, attackerVehicles;$/;"	f	class:War
+auxiliary	MonitorSession.java	/^   Player          player, auxiliary;$/;"	f	class:MonitorSession
+awardResources	Player.java	/^   public synchronized boolean awardResources() {$/;"	m	class:Player
+awardedPerAllocation	Wealth.java	/^   long awardedPerAllocation;$/;"	f	class:Resource
+battleCount	War.java	/^      int battleCount;$/;"	f	class:War
+beginSession	RecieverAuthConnection.java	/^   public void beginSession() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+beginSession	SenderAuthConnection.java	/^   public void beginSession() throws MonitorSessionException {$/;"	m	class:SenderAuthConnection
+canReceiveRandomPlayer	Player.java	/^   Date canReceiveRandomPlayer;$/;"	f	class:Player
+certIdentity	Player.java	/^   PlayerCertificate certIdentity;$/;"	f	class:Player
+changeAmount	ResourceValue.java	/^   synchronized long  changeAmount(long t) {$/;"	m	class:ResourceValue
+changeAmount	Wealth.java	/^   public synchronized long changeAmount(long delta)$/;"	m	class:Resource
+changeHolding	Wealth.java	/^   public synchronized long changeHolding(String holdingType, long amount)$/;"	m	class:Wealth
+changeMonitorAmount	ResourceValue.java	/^   synchronized public long changeMonitorAmount(long t) {$/;"	m	class:ResourceValue
+changePlayerPassword	Player.java	/^   synchronized void changePlayerPassword(String newPassword) {$/;"	m	class:Player
+checkAlive	WarRunner.java	/^      boolean checkAlive(Player player)$/;"	m	class:WarRunner
+checkConnectingHost	MonitorSession.java	/^   boolean checkConnectingHost(String hostname) {$/;"	m	class:MonitorSession
+checkConnectingHost	PassiveMonitorSession.java	/^   boolean checkConnectingHost(String hostname) {$/;"	m	class:PassiveMonitorSession
+checkPlayer	PassiveMonitorSession.java	/^   int checkPlayer() {$/;"	m	class:PassiveMonitorSession
+checkPlayer	PlayerCommandCounter.java	/^      synchronized int checkPlayer(String ident)$/;"	m	class:PlayerCommandCounter
+checkedForLiving	Player.java	/^   public synchronized void checkedForLiving(boolean isAlive) {$/;"	m	class:Player
+choosePassword	Player.java	/^   private String choosePassword(String who) {$/;"	m	class:Player	file:
+cipher	MonitorSession.java	/^   Cipher          cipher;$/;"	f	class:MonitorSession
+clear	PlayerCommandCounter.java	/^      synchronized void clear()$/;"	m	class:PlayerCommandCounter
+clearCurCommand	MonitorSession.java	/^   void clearCurCommand() { curCommand = null;  }$/;"	m	class:MonitorSession
+client	ClientApplet.java	/^   Clients client = null;$/;"	f	class:ClientApplet
+clientapplet	ClientApplet.java	/^   ClientApplet clientapplet;$/;"	f	class:Clients
+closeConnection	MonitorServer.java	/^   public void closeConnection(int connectionNumber) {  decrementCount();  }$/;"	m	class:MonitorServer
+commandRequired	TransactionConfirmConnection.java	/^   String commandRequired;$/;"	f	class:TransactionConfirmConnection
+commandsCounts	PlayerCommandCounter.java	/^      Hashtable commandsCounts;$/;"	f	class:PlayerCommandCounter
+committed	TransferRequestCommand.java	/^   boolean committed;                                       \/\/ 11\/12\/10$/;"	f	class:TransferRequestCommand
+completeOutputAndGetCommand	MonitorSession.java	/^   void completeOutputAndGetCommand(String commandRequired, int maxRetry)$/;"	m	class:MonitorSession
+completeOutputAndGetCommand	MonitorSession.java	/^   void completeOutputAndGetCommand(int maxRetry)$/;"	m	class:MonitorSession
+completedNormally	ConnectionHandler.java	/^   boolean completedNormally;$/;"	f	class:ConnectionHandler
+completedNormally	ConnectionHandler.java	/^   public  boolean completedNormally() {$/;"	m	class:ConnectionHandler
+computersToUse	Command.java	/^   long computersToUse;$/;"	f	class:PlayerMonitorPasswordCrackCommand
+computersToUse	Command.java	/^   long computersToUse;$/;"	f	class:PlayerStatusCrackCommand
+connected	ClientApplet.java	/^   boolean connected = false;$/;"	f	class:Clients
+connection	ConnectionHandler.java	/^   Socket connection;$/;"	f	class:ConnectionHandler
+connectionCount	MonitorServer.java	/^   int connectionCount;$/;"	f	class:MonitorServer
+connectionNumber	IncomingConnectionHandler.java	/^   int connectionNumber;$/;"	f	class:IncomingConnectionHandler
+connectit	ClientApplet.java	/^   public void connectit ()$/;"	m	class:Clients
+createIdentity	Player.java	/^   public synchronized void createIdentity(BigInteger signedIdentity) {$/;"	m	class:Player
+created	PlantDHKey.java	/^   Date created;$/;"	f	class:DHKey
+created	RSA.java	/^	Date created;$/;"	f	class:RSA
+curCommand	MonitorSession.java	/^   Command         curCommand;$/;"	f	class:MonitorSession
+curMessage	SenderAuthConnection.java	/^   String curMessage;$/;"	f	class:SenderAuthConnection
+curState	SenderAuthConnection.java	/^   int curState;$/;"	f	class:SenderAuthConnection
+declaredWar	Player.java	/^   void declaredWar() { warsDeclared++; }$/;"	m	class:Player
+decrementAmount	ResourceValue.java	/^   synchronized long  decrementAmount() {$/;"	m	class:ResourceValue
+decrementAmount	Wealth.java	/^   public synchronized long decrementAmount() {$/;"	m	class:Resource
+decrementCount	MonitorServer.java	/^   protected synchronized int decrementCount() { return --connectionCount; }$/;"	m	class:MonitorServer
+defendData	WarDefendConnection.java	/^      String defendData;$/;"	f	class:WarDefendConnection
+dhEngine	MonitorSession.java	/^   DHEngine        dhEngine;$/;"	f	class:MonitorSession
+dhKey	PlayerDB.java	/^   DHKey dhKey;$/;"	f	class:PlayerDB
+direction	MonitorSession.java	/^   boolean		   direction;$/;"	f	class:MonitorSession
+direction	TradeRequestCommand.java	/^   boolean direction = true;$/;"	f	class:TradeRequestCommand
+disconnect	ClientApplet.java	/^   public void disconnect ()$/;"	m	class:Clients
+e	PubRSA.java	/^	BigInteger e, n;$/;"	f	class:PubRSA
+echo	AliveCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:AliveCommand
+echo	ChangePasswordCommand.java	/^   public void echo(MonitorSession session) {$/;"	m	class:ChangePasswordCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:Command
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:GetGameIdents
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:HelpCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:PlayerHostPortCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:PlayerMonitorPasswordCrackCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:PlayerStatusCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:PlayerStatusCrackCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:RandomPlayerHostPortCommandCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:ValuesCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:WarCommand
+echo	Command.java	/^   public void echo(MonitorSession session) {$/;"	m	class:WarStatusCommand
+echo	DefendCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:DefendCommand
+echo	HostPortCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:HostPortCommand
+echo	IdentCommand.java	/^   public void echo(MonitorSession session) {$/;"	m	class:IdentCommand
+echo	PlayerPasswordCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:PlayerPasswordCommand
+echo	QuitCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:QuitCommand
+echo	SignOffCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:SignOffCommand
+echo	SynthesizeCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:SynthesizeCommand
+echo	TradeRequestCommand.java	/^   public void echo(MonitorSession session) {$/;"	m	class:TradeRequestCommand
+echo	TradeResponseCommand.java	/^   public void echo(MonitorSession session) {$/;"	m	class:TradeResponseCommand
+echo	TransferRequestCommand.java	/^   public void echo(MonitorSession session) {$/;"	m	class:TransferRequestCommand
+echo	TransferResponseCommand.java	/^   public void echo(MonitorSession session) {$/;"	m	class:TransferResponseCommand
+echo	WarTruceOfferCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:WarTruceOfferCommand
+echo	WarTruceResponseCommand.java	/^      public void echo(MonitorSession session) {$/;"	m	class:WarTruceResponseCommand
+economy	MakeStandings.java	/^   Economy economy;$/;"	f	class:MakeStandings
+economy	PlayerDB.java	/^   Economy economy;$/;"	f	class:PlayerDB
+economy	Wealth.java	/^   Economy  economy;$/;"	f	class:Wealth
+enableCipherMode	MonitorSession.java	/^   void enableCipherMode() { cipher = new Cipher(dhEngine.getSharedKey()); }$/;"	m	class:MonitorSession
+encrypt	PubRSA.java	/^	public BigInteger encrypt(BigInteger m) {$/;"	m	class:PubRSA
+endSession	MonitorSession.java	/^   public void endSession() {$/;"	m	class:MonitorSession
+endTransfer	MonitorSession.java	/^   public void endTransfer() {$/;"	m	class:MonitorSession
+endWarThread	War.java	/^      void endWarThread()$/;"	m	class:War
+enddate	ContestTimer.java	/^   Calendar enddate;$/;"	f	class:ReportTimeStarter
+enemyIdent	Command.java	/^   String enemyIdent;$/;"	f	class:WarStatusCommand
+error_flag	SubSetACommand.java	/^   boolean error_flag = false;$/;"	f	class:SubSetACommand
+exchangeKey	IdentCommand.java	/^   String exchangeKey;$/;"	f	class:IdentCommand
+execute	AliveCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:AliveCommand
+execute	AuthorizeSetCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:AuthorizeSetCommand
+execute	ChangePasswordCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:ChangePasswordCommand
+execute	Command.java	/^   public void execute(MonitorSession monitorSession) {$/;"	m	class:PlayerHostPortCommand
+execute	Command.java	/^   public void execute(MonitorSession monitorSession) {$/;"	m	class:PlayerMonitorPasswordCrackCommand
+execute	Command.java	/^   public void execute(MonitorSession monitorSession) {$/;"	m	class:PlayerStatusCrackCommand
+execute	Command.java	/^   public void execute(MonitorSession monitorSession) {$/;"	m	class:WarCommand
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:Command
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:GetGameIdents
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:HelpCommand
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:PlayerStatusCommand
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:RandomPlayerHostPortCommandCommand
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:ValuesCommand
+execute	Command.java	/^   public void execute(MonitorSession session) {$/;"	m	class:WarStatusCommand
+execute	GetCertificateCommand.java	/^	public void execute(MonitorSession session) {$/;"	m	class:GetCertificateCommand
+execute	GetMonitorKeyCommand.java	/^	public void execute(MonitorSession session) {$/;"	m	class:GetMonitorKeyCommand
+execute	HostPortCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:HostPortCommand
+execute	IdentCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:IdentCommand
+execute	MakeCertificateCommand.java	/^	public void execute(MonitorSession session) {$/;"	m	class:MakeCertificateCommand
+execute	PlayerPasswordCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:PlayerPasswordCommand
+execute	PublicKeyCommand.java	/^	public void execute(MonitorSession session) {$/;"	m	class:PublicKeyCommand
+execute	QuitCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:QuitCommand
+execute	RoundsCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:RoundsCommand
+execute	SignOffCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:SignOffCommand
+execute	SubSetACommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:SubSetACommand
+execute	SubSetJCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:SubSetJCommand
+execute	SubSetKCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:SubSetKCommand
+execute	SynthesizeCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:SynthesizeCommand
+execute	TradeRequestCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:TradeRequestCommand
+execute	TransferRequestCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:TransferRequestCommand
+execute	TransferResponseCommand.java	/^   public void execute(MonitorSession session) {$/;"	m	class:TransferResponseCommand
+execute	WarTruceOfferCommand.java	/^      public void execute(MonitorSession session)$/;"	m	class:WarTruceOfferCommand
+executeBattle	War.java	/^      synchronized boolean executeBattle()$/;"	m	class:War
+findDefense	War.java	/^      private void findDefense()$/;"	m	class:War	file:
+foughtWar	Player.java	/^   void foughtWar(long chg) { warsFought += chg; }$/;"	m	class:Player
+g	PlantDHKey.java	/^   BigInteger p, g;    \/* These two make up the public Key *\/$/;"	f	class:DHKey
+gaveMonitorPassword	Player.java	/^   public synchronized void gaveMonitorPassword() { hasMonitorPassword=true; }$/;"	m	class:Player
+gen	RSA.java	/^	public void gen() {$/;"	m	class:RSA
+getAmount	ResourceValue.java	/^   synchronized long getAmount() {$/;"	m	class:ResourceValue
+getAmount	Wealth.java	/^   public synchronized long getAmount() { return amount;  }$/;"	m	class:Resource
+getAmountCommitted	Player.java	/^   long getAmountCommitted () { return amt_committed; }   \/\/ 11\/12\/10$/;"	m	class:Player
+getAttacker	War.java	/^      Player getAttacker()$/;"	m	class:War
+getAttackerStatus	War.java	/^      private String getAttackerStatus()$/;"	m	class:War	file:
+getAuthorizeSet	MonitorSession.java	/^   public String getAuthorizeSet() {$/;"	m	class:MonitorSession
+getAuxillaryPlayer	MonitorSession.java	/^   public Player getAuxillaryPlayer() { return auxiliary; }$/;"	m	class:MonitorSession
+getAwardedAmount	Wealth.java	/^   protected long getAwardedAmount() {  return awardedPerAllocation; }$/;"	m	class:Resource
+getCertIdentity	Player.java	/^   public synchronized String getCertIdentity() {$/;"	m	class:Player
+getCertificate	PlayerCertificate.java	/^	public String getCertificate() {$/;"	m	class:PlayerCertificate
+getCommandMessage	AliveCommand.java	/^      String getCommandMessage()$/;"	m	class:AliveCommand
+getCommandMessage	AuthorizeSetCommand.java	/^   public String getCommandMessage() {$/;"	m	class:AuthorizeSetCommand
+getCommandMessage	ChangePasswordCommand.java	/^   String getCommandMessage() {$/;"	m	class:ChangePasswordCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {  return new String("UNDEFINED");  }$/;"	m	class:Command
+getCommandMessage	Command.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING);  }$/;"	m	class:GetGameIdents
+getCommandMessage	Command.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING);  }$/;"	m	class:ValuesCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING); }$/;"	m	class:PlayerMonitorPasswordCrackCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING); }$/;"	m	class:PlayerStatusCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() { return new String(COMMAND_STRING); }$/;"	m	class:WarCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {$/;"	m	class:HelpCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {$/;"	m	class:PlayerHostPortCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {$/;"	m	class:PlayerStatusCrackCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {$/;"	m	class:RandomPlayerHostPortCommandCommand
+getCommandMessage	Command.java	/^   String getCommandMessage() {$/;"	m	class:WarStatusCommand
+getCommandMessage	DefendCommand.java	/^      String getCommandMessage()$/;"	m	class:DefendCommand
+getCommandMessage	GetCertificateCommand.java	/^	String getCommandMessage() {$/;"	m	class:GetCertificateCommand
+getCommandMessage	GetMonitorKeyCommand.java	/^	String getCommandMessage() {$/;"	m	class:GetMonitorKeyCommand
+getCommandMessage	HostPortCommand.java	/^      String getCommandMessage()$/;"	m	class:HostPortCommand
+getCommandMessage	IdentCommand.java	/^   String getCommandMessage() {$/;"	m	class:IdentCommand
+getCommandMessage	MakeCertificateCommand.java	/^	public String getCommandMessage() {$/;"	m	class:MakeCertificateCommand
+getCommandMessage	PlayerPasswordCommand.java	/^      String getCommandMessage()$/;"	m	class:PlayerPasswordCommand
+getCommandMessage	PublicKeyCommand.java	/^	public String getCommandMessage() {$/;"	m	class:PublicKeyCommand
+getCommandMessage	QuitCommand.java	/^      String getCommandMessage()$/;"	m	class:QuitCommand
+getCommandMessage	RoundsCommand.java	/^   public String getCommandMessage() {$/;"	m	class:RoundsCommand
+getCommandMessage	SignOffCommand.java	/^      String getCommandMessage()$/;"	m	class:SignOffCommand
+getCommandMessage	SubSetACommand.java	/^   public String getCommandMessage() {$/;"	m	class:SubSetACommand
+getCommandMessage	SubSetJCommand.java	/^   public String getCommandMessage() {$/;"	m	class:SubSetJCommand
+getCommandMessage	SubSetKCommand.java	/^   public String getCommandMessage() {$/;"	m	class:SubSetKCommand
+getCommandMessage	SynthesizeCommand.java	/^      String getCommandMessage()$/;"	m	class:SynthesizeCommand
+getCommandMessage	TradeRequestCommand.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING);  }$/;"	m	class:TradeRequestCommand
+getCommandMessage	TradeResponseCommand.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING); }$/;"	m	class:TradeResponseCommand
+getCommandMessage	TransferRequestCommand.java	/^   String getCommandMessage() {  return new String(COMMAND_STRING);  }$/;"	m	class:TransferRequestCommand
+getCommandMessage	TransferResponseCommand.java	/^   String getCommandMessage() {  $/;"	m	class:TransferResponseCommand
+getCommandMessage	WarTruceOfferCommand.java	/^      String getCommandMessage()$/;"	m	class:WarTruceOfferCommand
+getCommandMessage	WarTruceResponseCommand.java	/^      String getCommandMessage()$/;"	m	class:WarTruceResponseCommand
+getConnectedIdentity	RecieverAuthConnection.java	/^   public Player getConnectedIdentity() {$/;"	m	class:RecieverAuthConnection
+getConnectedIdentity	SenderAuthConnection.java	/^   public Player getConnectedIdentity() {$/;"	m	class:SenderAuthConnection
+getCount	MonitorServer.java	/^   protected synchronized int getCount() {  return connectionCount;  }$/;"	m	class:MonitorServer
+getCurCommand	MonitorSession.java	/^   Command getCurCommand() {  return curCommand;  }$/;"	m	class:MonitorSession
+getDHExchangeKey	MonitorSession.java	/^   String getDHExchangeKey() {  return dhEngine.getExchangeKey();  }$/;"	m	class:MonitorSession
+getDHKey	PlayerDB.java	/^   DHKey getDHKey() {  return dhKey;  }$/;"	m	class:PlayerDB
+getEconomy	Player.java	/^   Economy getEconomy() { return wealth.getEconomy(); }$/;"	m	class:Player
+getEconomy	PlayerDB.java	/^   Economy getEconomy() {  return economy;  }$/;"	m	class:PlayerDB
+getEconomy	Wealth.java	/^   public Economy getEconomy() {  return economy; }$/;"	m	class:Wealth
+getEncrypted	Player.java	/^   public boolean getEncrypted () {  return usingEncryption;  }$/;"	m	class:Player
+getExchangeKey	DHEngine.java	/^    public String getExchangeKey() {$/;"	m	class:DHEngine
+getExponent	PubRSA.java	/^	public BigInteger getExponent() {$/;"	m	class:PubRSA
+getHolding	Wealth.java	/^   public synchronized long getHolding(String holdingType)$/;"	m	class:Wealth
+getHoldingReport	Wealth.java	/^   public String getHoldingReport() {$/;"	m	class:Wealth
+getHostName	Player.java	/^   String getHostName() {$/;"	m	class:Player
+getIdent	Command.java	/^   String getIdent() {  return new String("Anonymous"); }$/;"	m	class:ValuesCommand
+getIdent	IdentCommand.java	/^   String getIdent() {$/;"	m	class:IdentCommand
+getIdentity	Player.java	/^   String getIdentity() {  return new String(identity);  }$/;"	m	class:Player
+getInetAddress	Player.java	/^   InetAddress getInetAddress() {$/;"	m	class:Player
+getInstance	Command.java	/^   static final public Command getInstance(String commandLine)$/;"	m	class:Command
+getInstance	Command.java	/^   static final public Command getInstance(String commandLine, Command cur)$/;"	m	class:Command
+getInstance	Command.java	/^   static final public Command getInstance(String commandLine,$/;"	m	class:Command
+getKeyObject	DHEngine.java	/^    DHKey getKeyObject() { return key; }$/;"	m	class:DHEngine
+getMarketValue	ResourceValue.java	/^   synchronized double  getMarketValue() {$/;"	m	class:ResourceValue
+getMessage	CommandException.java	/^      public String getMessage() {  return new String(message);  }$/;"	m	class:CommandException
+getMessage	InsufficientResourceException.java	/^      public String getMessage()$/;"	m	class:InsufficientResourceException
+getMessage	MonitorSessionException.java	/^      public String getMessage()$/;"	m	class:MonitorSessionException
+getMessage	TransactionConfirmConnection.java	/^   String getMessage() {  return new String(message);  }$/;"	m	class:TransactionConfirmConnection
+getMessage	UnknownResourceException.java	/^      public String getMessage()$/;"	m	class:UnknownResourceException
+getModulus	PubRSA.java	/^	public BigInteger getModulus() {$/;"	m	class:PubRSA
+getMonitorAmount	ResourceValue.java	/^   synchronized public long getMonitorAmount() {$/;"	m	class:ResourceValue
+getMonitorCertificate	MonitorSession.java	/^   public PlayerCertificate getMonitorCertificate() {$/;"	m	class:MonitorSession
+getMonitorPassword	Player.java	/^   String getMonitorPassword() {$/;"	m	class:Player
+getMonitorPrivateKey	MonitorSession.java	/^   public RSA getMonitorPrivateKey() {$/;"	m	class:MonitorSession
+getMonitorPublicKey	MonitorSession.java	/^   public PubRSA getMonitorPublicKey() {$/;"	m	class:MonitorSession
+getName	Wealth.java	/^   public String getName() {  return new String(name);  }$/;"	m	class:Resource
+getNewCommand	MonitorSession.java	/^   boolean getNewCommand() throws MonitorSessionException {$/;"	m	class:MonitorSession
+getNewDistributionHash	Economy.java	/^   public Hashtable getNewDistributionHash() {$/;"	m	class:Economy
+getNext	Command.java	/^   public Command getNext() {$/;"	m	class:Command
+getOutput	MonitorSession.java	/^   private PrintStream getOutput() {  return output;  }$/;"	m	class:MonitorSession	file:
+getPlayer	MonitorSession.java	/^   public Player getPlayer() { return player; }$/;"	m	class:MonitorSession
+getPlayerCommandCounter	PassiveMonitorSession.java	/^   static PlayerCommandCounter getPlayerCommandCounter() {$/;"	m	class:PassiveMonitorSession
+getPlayerDB	EconomyValues.java	/^   PlayerDB getPlayerDB(String filename) {$/;"	m	class:EconomyValues
+getPlayerDB	MonitorServer.java	/^   protected PlayerDB getPlayerDB()  {  return playerDB;  }$/;"	m	class:MonitorServer
+getPlayerDB	MonitorSession.java	/^   public PlayerDB getPlayerDB() { return playerDB; }$/;"	m	class:MonitorSession
+getPlayerDB	War.java	/^      PlayerDB getPlayerDB()$/;"	m	class:War
+getPlayerName	PlayerCertificate.java	/^	public String getPlayerName() {$/;"	m	class:PlayerCertificate
+getPlayerPassword	SillyPlayerWrapper.java	/^   String getPlayerPassword(Player p) { return p.playerPassword; }$/;"	m	class:SillyPlayerWrapper
+getPlayerToTradeWith	TradeRequestCommand.java	/^   public Player getPlayerToTradeWith() {  return playerTo; }$/;"	m	class:TradeRequestCommand
+getPlayerToTradeWith	TransferRequestCommand.java	/^   public Player getPlayerToTradeWith() {  return playerTo; }$/;"	m	class:TransferRequestCommand
+getPlayers	PlayerDB.java	/^   Enumeration getPlayers() {  return players.elements();  }$/;"	m	class:PlayerDB
+getPort	Player.java	/^   int getPort() { return portLastSeenOn;  }$/;"	m	class:Player
+getRandomDoubleBetween	Economy.java	/^   private double getRandomDoubleBetween(double min, double max) {$/;"	m	class:Economy	file:
+getRandomDoubleBetween	War.java	/^      private double getRandomDoubleBetween(double min, double max)$/;"	m	class:War	file:
+getRandomPlayerWithHostPort	PlayerDB.java	/^   Player getRandomPlayerWithHostPort(Player exceptThisOne) {$/;"	m	class:PlayerDB
+getResourceByName	Wealth.java	/^   public Resource getResourceByName(String holdingType)$/;"	m	class:Wealth
+getResourceNames	Economy.java	/^   public Enumeration getResourceNames() {  return market.keys();  }$/;"	m	class:Economy
+getResourceNames	Wealth.java	/^   Enumeration getResourceNames() {  return holdings.keys();  }$/;"	m	class:Wealth
+getResourceValue	Wealth.java	/^   protected synchronized ResourceValue getResourceValue() {$/;"	m	class:Resource
+getResourceValueByName	Economy.java	/^   public ResourceValue getResourceValueByName(String name) {$/;"	m	class:Economy
+getResponse	TransactionResponseCommand.java	/^      public String getResponse()$/;"	m	class:TransactionResponseCommand
+getResult	EconomyValues.java	/^   public String getResult (String filename) {$/;"	m	class:EconomyValues
+getRounds	SenderAuthConnection.java	/^   public int getRounds() throws MonitorSessionException {$/;"	m	class:SenderAuthConnection
+getSecondsAliveSinceLastResourceAllocation	Player.java	/^   public synchronized long getSecondsAliveSinceLastResourceAllocation() {$/;"	m	class:Player
+getSharedKey	DHEngine.java	/^    BigInteger getSharedKey() {$/;"	m	class:DHEngine
+getSubSetA	MonitorSession.java	/^   public String getSubSetA() {$/;"	m	class:MonitorSession
+getSubSetA	SenderAuthConnection.java	/^   public String getSubSetA() throws MonitorSessionException {$/;"	m	class:SenderAuthConnection
+getSubSetJ	MonitorSession.java	/^   public String getSubSetJ() {$/;"	m	class:MonitorSession
+getSubSetJ	RecieverAuthConnection.java	/^   public String getSubSetJ() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+getSubSetK	MonitorSession.java	/^   public String getSubSetK() {$/;"	m	class:MonitorSession
+getSubSetK	RecieverAuthConnection.java	/^   public String getSubSetK() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+getSubsetASize	MonitorSession.java	/^   public int getSubsetASize() {$/;"	m	class:MonitorSession
+getTime	Timer.java	/^   public double getTime() {$/;"	m	class:Timer
+getTransferPubKey	MonitorSession.java	/^   public PubRSA getTransferPubKey() {$/;"	m	class:MonitorSession
+getTransferRounds	MonitorSession.java	/^   public int getTransferRounds() {$/;"	m	class:MonitorSession
+getVehicles	DefendCommand.java	/^      int getVehicles()$/;"	m	class:DefendCommand
+getVehicles	WarDefendConnection.java	/^      int getVehicles()$/;"	m	class:WarDefendConnection
+getVictim	War.java	/^      Player getVictim()$/;"	m	class:War
+getVictimStatus	War.java	/^      private String getVictimStatus()$/;"	m	class:War	file:
+getWarReport	SillyPlayerWrapper.java	/^   String getWarReport(Player p) {$/;"	m	class:SillyPlayerWrapper
+getWarStatus	War.java	/^      String getWarStatus(Player p)$/;"	m	class:War
+getWars	Player.java	/^   Enumeration getWars() { return wars.elements(); }$/;"	m	class:Player
+getWarsDeclared	SillyPlayerWrapper.java	/^   int getWarsDeclared(Player p) { return p.warsDeclared; }$/;"	m	class:SillyPlayerWrapper
+getWarsFought	SillyPlayerWrapper.java	/^   long getWarsFought(Player p) { return p.warsFought; }$/;"	m	class:SillyPlayerWrapper
+getWarsLost	SillyPlayerWrapper.java	/^   int getWarsLost(Player p) { return p.warsLost; }$/;"	m	class:SillyPlayerWrapper
+getWarsTruce	SillyPlayerWrapper.java	/^   long getWarsTruce(Player p) { return p.warsTruce;  }$/;"	m	class:SillyPlayerWrapper
+getWarsWon	SillyPlayerWrapper.java	/^   int getWarsWon(Player p) { return p.warsWon; }$/;"	m	class:SillyPlayerWrapper
+getWealth	Player.java	/^   Wealth getWealth() {  return wealth;  }$/;"	m	class:Player
+getWeapons	DefendCommand.java	/^      int getWeapons()$/;"	m	class:DefendCommand
+getWeapons	WarDefendConnection.java	/^      int getWeapons()$/;"	m	class:WarDefendConnection
+getWinner	War.java	/^      synchronized String getWinner()$/;"	m	class:War
+go	ClientApplet.java	/^   public void go ()$/;"	m	class:Clients
+greet	MonitorSession.java	/^   void greet() {$/;"	m	class:MonitorSession
+h	PlayerCertificate.java	/^	private BigInteger h;$/;"	f	class:PlayerCertificate	file:
+handleCurrentCommand	MonitorSession.java	/^   void handleCurrentCommand() {$/;"	m	class:MonitorSession
+handleTimeout	ConnectionHandler.java	/^   public void handleTimeout() { }         $/;"	m	class:ConnectionHandler
+handleTimeout	IncomingConnectionHandler.java	/^   public void handleTimeout() {$/;"	m	class:IncomingConnectionHandler
+hasMonitorPassword	Player.java	/^   boolean hasMonitorPassword;$/;"	f	class:Player
+hasSeenMonitorPassword	Player.java	/^   public boolean hasSeenMonitorPassword() {  return hasMonitorPassword;  }$/;"	m	class:Player
+holders	Economy.java	/^   Hashtable holders;$/;"	f	class:Economy
+holdings	Wealth.java	/^   Hashtable holdings;$/;"	f	class:Wealth
+identSought	Command.java	/^   String identSought;$/;"	f	class:PlayerHostPortCommand
+identSought	Command.java	/^   String identSought;$/;"	f	class:PlayerMonitorPasswordCrackCommand
+identSought	Command.java	/^   String identSought;$/;"	f	class:PlayerStatusCrackCommand
+identToWarWith	Command.java	/^   String identToWarWith;$/;"	f	class:WarCommand
+identity	IdentCommand.java	/^   String identity;$/;"	f	class:IdentCommand
+identity	Player.java	/^   String identity;$/;"	f	class:Player
+identityFrom	TradeRequestCommand.java	/^   String identityFrom;$/;"	f	class:TradeRequestCommand
+identityFrom	TransferRequestCommand.java	/^   String identityFrom;$/;"	f	class:TransferRequestCommand
+identityFrom	WarTruceOfferCommand.java	/^      String identityFrom;$/;"	f	class:WarTruceOfferCommand
+identityTo	TradeRequestCommand.java	/^   String identityTo;$/;"	f	class:TradeRequestCommand
+identityTo	TransferRequestCommand.java	/^   String identityTo;$/;"	f	class:TransferRequestCommand
+identityTo	WarTruceOfferCommand.java	/^      String identityTo;$/;"	f	class:WarTruceOfferCommand
+in	ClientApplet.java	/^   DataInputStream in = null;$/;"	f	class:Clients
+inTransfer	MonitorSession.java	/^   boolean         inTransfer;$/;"	f	class:MonitorSession
+increaseHolder	Economy.java	/^   void increaseHolder(String key, int amount) {$/;"	m	class:Economy
+incrementCount	MonitorServer.java	/^   protected synchronized int incrementCount() { return ++connectionCount; }$/;"	m	class:MonitorServer
+incrementPlayer	PassiveMonitorSession.java	/^   int incrementPlayer() {$/;"	m	class:PassiveMonitorSession
+incrementPlayer	PlayerCommandCounter.java	/^      synchronized int incrementPlayer(String ident)$/;"	m	class:PlayerCommandCounter
+init	ClientApplet.java	/^   public void init ()$/;"	m	class:ClientApplet
+initialize	AliveCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:AliveCommand
+initialize	AuthorizeSetCommand.java	/^   public void initialize(String args[]) throws CommandException {$/;"	m	class:AuthorizeSetCommand
+initialize	AwardResources.java	/^   public void initialize(Object o) {$/;"	m	class:AwardResources
+initialize	ChangePasswordCommand.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:ChangePasswordCommand
+initialize	CheckForLiving.java	/^	public void initialize(Object o) {$/;"	m	class:CheckForLiving
+initialize	ClearCommandCounter.java	/^      public void initialize(Object o)$/;"	m	class:ClearCommandCounter
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:Command
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:GetGameIdents
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:HelpCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:PlayerHostPortCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:PlayerMonitorPasswordCrackCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:PlayerStatusCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:PlayerStatusCrackCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:RandomPlayerHostPortCommandCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:ValuesCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:WarCommand
+initialize	Command.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:WarStatusCommand
+initialize	DefendCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:DefendCommand
+initialize	GetCertificateCommand.java	/^	void initialize(String args[]) throws CommandException {$/;"	m	class:GetCertificateCommand
+initialize	HostPortCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:HostPortCommand
+initialize	IdentCommand.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:IdentCommand
+initialize	MakeCertificateCommand.java	/^	void initialize(String args[]) throws CommandException {$/;"	m	class:MakeCertificateCommand
+initialize	PlayerPasswordCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:PlayerPasswordCommand
+initialize	PublicKeyCommand.java	/^	public void initialize(String args[]) throws CommandException {$/;"	m	class:PublicKeyCommand
+initialize	RecurredEvent.java	/^      void initialize(Object o);$/;"	m	interface:RecurredEvent
+initialize	RoundsCommand.java	/^   public void initialize(String args[]) throws CommandException {$/;"	m	class:RoundsCommand
+initialize	SerializePlayerDB.java	/^      public void initialize(Object o)$/;"	m	class:SerializePlayerDB
+initialize	SignOffCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:SignOffCommand
+initialize	SubSetACommand.java	/^   public void initialize(String args[]) throws CommandException {$/;"	m	class:SubSetACommand
+initialize	SubSetJCommand.java	/^   public void initialize(String args[]) throws CommandException {$/;"	m	class:SubSetJCommand
+initialize	SubSetKCommand.java	/^   public void initialize(String args[]) throws CommandException {$/;"	m	class:SubSetKCommand
+initialize	SynthesizeCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:SynthesizeCommand
+initialize	TradeRequestCommand.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:TradeRequestCommand
+initialize	TransactionResponseCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:TransactionResponseCommand
+initialize	TransferRequestCommand.java	/^   void initialize(String args[]) throws CommandException {$/;"	m	class:TransferRequestCommand
+initialize	TransferResponseCommand.java	/^   public void initialize(String args[]) throws CommandException {$/;"	m	class:TransferResponseCommand
+initialize	WarRunner.java	/^      public void initialize(Object o)$/;"	m	class:WarRunner
+initialize	WarTruceOfferCommand.java	/^      void initialize(String args[]) throws CommandException$/;"	m	class:WarTruceOfferCommand
+initializingObject	RecurringEvent.java	/^      Object initializingObject;$/;"	f	class:RecurringEvent
+initiate	ActiveMonitorSession.java	/^   boolean initiate(Player playerWeThoughtThisWas)$/;"	m	class:ActiveMonitorSession
+initiate	MonitorSession.java	/^   boolean initiate() throws MonitorSessionException {$/;"	m	class:MonitorSession
+initiate	PassiveMonitorSession.java	/^   boolean initiate(InetAddress whereFrom) throws MonitorSessionException  {$/;"	m	class:PassiveMonitorSession
+input	MonitorSession.java	/^   BufferedReader  input;$/;"	f	class:MonitorSession
+isAuthorized	SenderAuthConnection.java	/^   public boolean isAuthorized() throws MonitorSessionException {$/;"	m	class:SenderAuthConnection
+isOver	War.java	/^      boolean isOver()$/;"	m	class:War
+isPlayer	RecieverAuthConnection.java	/^   Player wantedPlayer, isPlayer, senderPlayer;$/;"	f	class:RecieverAuthConnection
+isTransferAuthorized	MonitorSession.java	/^   public boolean isTransferAuthorized() {$/;"	m	class:MonitorSession
+join	RecurredEvent.java	/^      void join()$/;"	m	interface:RecurredEvent
+key	Cipher.java	/^   private byte key[];$/;"	f	class:Cipher	file:
+key	DHEngine.java	/^    private DHKey key;        \/* Heres the basic Key gadget *\/$/;"	f	class:DHEngine	file:
+key_left	Cipher.java	/^   private byte key_left[];$/;"	f	class:Cipher	file:
+key_right	Cipher.java	/^   private byte key_right[];$/;"	f	class:Cipher	file:
+keysize	DHEngine.java	/^    final int keysize = 512;           \/* Default size, in bits *\/$/;"	f	class:DHEngine
+last	SubSetACommand.java	/^   int last = -1;$/;"	f	class:SubSetACommand
+lastAliveCheck	Player.java	/^   Date lastAliveCheck;$/;"	f	class:Player
+leave	ClientApplet.java	/^   Button sendit, leave, openit;$/;"	f	class:ClientApplet
+lookup	PlayerDB.java	/^   Player lookup(String identity) { return ((Player)players.get(identity)); }$/;"	m	class:PlayerDB
+lookupOrCreate	PlayerDB.java	/^   Player lookupOrCreate(IdentCommand identCommand) {$/;"	m	class:PlayerDB
+lookupWar	Player.java	/^   War lookupWar(Player enemy) {$/;"	m	class:Player
+lostWar	Player.java	/^   void lostWar() { warsLost++; }$/;"	m	class:Player
+main	ContestTimer.java	/^   public static void main (String args[]) {$/;"	m	class:ContestTimer
+main	Gauss.java	/^   public static void main (String args[]) {$/;"	m	class:Gauss
+main	MakeStandings.java	/^   public static void main(String argv[]) {$/;"	m	class:MakeStandings
+main	MonitorServer.java	/^   public static void main(String arg[]) throws Exception {$/;"	m	class:MonitorServer
+main	PlantDHKey.java	/^   public static void main (String arg[]) {$/;"	m	class:PlantDHKey
+main	ReadPlayerDB.java	/^      public static void main(String argv[]) {$/;"	m	class:ReadPlayerDB
+market	Economy.java	/^   Hashtable market;$/;"	f	class:Economy
+marketValue	ResourceValue.java	/^   double marketValue;$/;"	f	class:ResourceValue
+md	Cipher.java	/^   MessageDigest md = null; $/;"	f	class:Cipher
+md	MakeCertificateCommand.java	/^	private MessageDigest md;$/;"	f	class:MakeCertificateCommand	file:
+message	CommandException.java	/^      String message;$/;"	f	class:CommandException
+message	InsufficientResourceException.java	/^      String message;$/;"	f	class:InsufficientResourceException
+message	MonitorSessionException.java	/^      String message;$/;"	f	class:MonitorSessionException
+message	TransactionConfirmConnection.java	/^   String message;$/;"	f	class:TransactionConfirmConnection
+message	UnknownResourceException.java	/^      String message;$/;"	f	class:UnknownResourceException
+milliseconds	RecurringEvent.java	/^      long  milliseconds;$/;"	f	class:RecurringEvent
+millisecondsAliveSinceLastResourceAllocation	Player.java	/^   long millisecondsAliveSinceLastResourceAllocation;$/;"	f	class:Player
+monitorCert	MonitorSession.java	/^   PlayerCertificate monitorCert;$/;"	f	class:MonitorSession
+monitorPassword	Player.java	/^   String monitorPassword;$/;"	f	class:Player
+monitorPasswordCheck	Player.java	/^   public boolean monitorPasswordCheck(String checkAgainst) {$/;"	m	class:Player
+mustFillValidCommands	Command.java	/^   static boolean   mustFillValidCommands = true;$/;"	f	class:Command
+n	PubRSA.java	/^	BigInteger e, n;$/;"	f	class:PubRSA
+n	PublicKeyCommand.java	/^	private BigInteger v, n;$/;"	f	class:PublicKeyCommand	file:
+name	ClientApplet.java	/^   String name;$/;"	f	class:Clients
+name	ResourceValue.java	/^   String name;$/;"	f	class:ResourceValue
+name	Wealth.java	/^   String name;$/;"	f	class:Resource
+newPassword	ChangePasswordCommand.java	/^   String oldPassword, newPassword;$/;"	f	class:ChangePasswordCommand
+nextCommand	Command.java	/^   private Command nextCommand;$/;"	f	class:Command	file:
+noMoreThan	RandomRecurringEvent.java	/^      long atLeast, noMoreThan;$/;"	f	class:RandomRecurringEvent
+notTransferAuthorized	MonitorSession.java	/^   public void notTransferAuthorized() {$/;"	m	class:MonitorSession
+offerData	WarTruceOfferCommand.java	/^      String offerData;$/;"	f	class:WarTruceOfferCommand
+oldPassword	ChangePasswordCommand.java	/^   String oldPassword, newPassword;$/;"	f	class:ChangePasswordCommand
+openit	ClientApplet.java	/^   Button sendit, leave, openit;$/;"	f	class:ClientApplet
+out	ClientApplet.java	/^   DataOutputStream out = null;$/;"	f	class:Clients
+outOfTime	ConnectionHandler.java	/^   public void outOfTime() {$/;"	m	class:ConnectionHandler
+outOfTime	TimedExistance.java	/^      public void outOfTime();$/;"	m	interface:TimedExistance
+outOfTime	Timer.java	/^   public void outOfTime() {$/;"	m	class:Timer
+output	MonitorSession.java	/^   PrintStream     output;$/;"	f	class:MonitorSession
+p	PlantDHKey.java	/^   BigInteger p, g;    \/* These two make up the public Key *\/$/;"	f	class:DHKey
+p	RSA.java	/^	private BigInteger q, p;$/;"	f	class:RSA	file:
+password	AliveCommand.java	/^      String password;$/;"	f	class:AliveCommand
+password	PlayerPasswordCommand.java	/^      String password;$/;"	f	class:PlayerPasswordCommand
+performSHA	Player.java	/^   String performSHA(String input) {$/;"	m	class:Player
+performSleep	RandomRecurringEvent.java	/^      void performSleep()$/;"	m	class:RandomRecurringEvent
+performSleep	RecurringEvent.java	/^      void performSleep()$/;"	m	class:RecurringEvent
+player	MonitorSession.java	/^   Player          player, auxiliary;$/;"	f	class:MonitorSession
+playerCommandCounter	ClearCommandCounter.java	/^      PlayerCommandCounter playerCommandCounter;$/;"	f	class:ClearCommandCounter
+playerCommandCounter	PassiveMonitorSession.java	/^   static PlayerCommandCounter playerCommandCounter =$/;"	f	class:PassiveMonitorSession
+playerDB	AwardResources.java	/^   PlayerDB playerDB;$/;"	f	class:AwardResources
+playerDB	CheckForLiving.java	/^	PlayerDB playerDB;$/;"	f	class:CheckForLiving
+playerDB	MakeStandings.java	/^   PlayerDB playerDB;$/;"	f	class:MakeStandings
+playerDB	MonitorServer.java	/^   PlayerDB playerDB;$/;"	f	class:MonitorServer
+playerDB	MonitorSession.java	/^   PlayerDB        playerDB;$/;"	f	class:MonitorSession
+playerDB	ReadPlayerDB.java	/^   PlayerDB playerDB;$/;"	f	class:ReadPlayerDB
+playerDB	SerializePlayerDB.java	/^      PlayerDB playerDB;$/;"	f	class:SerializePlayerDB
+playerDB	War.java	/^      PlayerDB playerDB;$/;"	f	class:War
+playerFrom	TransferRequestCommand.java	/^   Player playerTo, playerFrom;$/;"	f	class:TransferRequestCommand
+playerName	PlayerCertificate.java	/^	private String playerName;$/;"	f	class:PlayerCertificate	file:
+playerPassword	Player.java	/^   String playerPassword, shaOfPlayerPassword;$/;"	f	class:Player
+playerPasswordCheck	Player.java	/^   public boolean playerPasswordCheck(String checkAgainst) {$/;"	m	class:Player
+playerPasswordSHA	Player.java	/^   public String playerPasswordSHA() {$/;"	m	class:Player
+playerSought	Command.java	/^   Player playerSought;$/;"	f	class:PlayerMonitorPasswordCrackCommand
+playerSought	Command.java	/^   Player playerSought;$/;"	f	class:PlayerStatusCrackCommand
+playerTo	TradeRequestCommand.java	/^   Player playerTo;$/;"	f	class:TradeRequestCommand
+playerTo	TransferRequestCommand.java	/^   Player playerTo, playerFrom;$/;"	f	class:TransferRequestCommand
+playerTo	WarTruceOfferCommand.java	/^      Player playerTo;$/;"	f	class:WarTruceOfferCommand
+playerToTransactionWith	TransactionConfirmConnection.java	/^   Player playerToTransactionWith;$/;"	f	class:TransactionConfirmConnection
+playerWeThoughtThisWas	AliveConnection.java	/^      Player playerWeThoughtThisWas;$/;"	f	class:AliveConnection
+players	PlayerDB.java	/^   Hashtable players;$/;"	f	class:PlayerDB
+port	Command.java	/^   int port;$/;"	f	class:WarCommand
+port	HostPortCommand.java	/^      int port;$/;"	f	class:HostPortCommand
+portLastSeenOn	Player.java	/^   int portLastSeenOn;$/;"	f	class:Player
+printStatistics	Economy.java	/^   public synchronized void printStatistics(PrintStream file) {$/;"	m	class:Economy
+println	MonitorSession.java	/^   void println(String s) {$/;"	m	class:MonitorSession
+privateKey	MonitorSession.java	/^   RSA             privateKey;   $/;"	f	class:MonitorSession
+processAttack	War.java	/^      private synchronized void processAttack()$/;"	m	class:War	file:
+processPlayers	MakeStandings.java	/^   void processPlayers() {$/;"	m	class:MakeStandings
+processPlayers	ReadPlayerDB.java	/^   void processPlayers() {$/;"	m	class:ReadPlayerDB
+pubKey	MonitorSession.java	/^   PubRSA          pubKey;$/;"	f	class:MonitorSession
+publicKey	RSA.java	/^	public PubRSA publicKey() {$/;"	m	class:RSA
+q	RSA.java	/^	private BigInteger q, p;$/;"	f	class:RSA	file:
+r	RSA.java	/^	private Random r;$/;"	f	class:RSA	file:
+random	Command.java	/^   static SecureRandom random = new SecureRandom();$/;"	f	class:PlayerMonitorPasswordCrackCommand
+random	Command.java	/^   static SecureRandom random = new SecureRandom();$/;"	f	class:PlayerStatusCrackCommand
+random	Economy.java	/^   static SecureRandom random = new SecureRandom();$/;"	f	class:Economy
+random	Player.java	/^   static SecureRandom random = new SecureRandom();$/;"	f	class:Player
+random	PlayerDB.java	/^   static SecureRandom random = new SecureRandom();$/;"	f	class:PlayerDB
+random	RandomRecurringEvent.java	/^      static SecureRandom random = new SecureRandom();$/;"	f	class:RandomRecurringEvent
+random	War.java	/^      static SecureRandom random = new SecureRandom();$/;"	f	class:War
+random	Wealth.java	/^   static SecureRandom random = new SecureRandom();$/;"	f	class:Wealth
+randomPlayerHostPortPermitted	Player.java	/^   public synchronized boolean randomPlayerHostPortPermitted() {$/;"	m	class:Player
+rcsid	AliveConnection.java	/^      static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:AliveConnection
+rcsid	AuthorizeSetCommand.java	/^   private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:AuthorizeSetCommand	file:
+rcsid	AwardResources.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:AwardResources
+rcsid	CheckForLiving.java	/^	static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:CheckForLiving
+rcsid	ClearCommandCounter.java	/^      static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:ClearCommandCounter
+rcsid	Command.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:Command
+rcsid	ConnectionHandler.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:ConnectionHandler
+rcsid	Directive.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:Directive
+rcsid	GameParameters.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:GameParameters
+rcsid	GetMonitorKeyCommand.java	/^	static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:GetMonitorKeyCommand
+rcsid	IncomingConnectionHandler.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:IncomingConnectionHandler
+rcsid	MakeCertificateCommand.java	/^	private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:MakeCertificateCommand	file:
+rcsid	MonitorSession.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:MonitorSession
+rcsid	OutgoingConnectionHandler.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:OutgoingConnectionHandler
+rcsid	PublicKeyCommand.java	/^	private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:PublicKeyCommand	file:
+rcsid	RecieverAuthConnection.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:RecieverAuthConnection
+rcsid	RoundsCommand.java	/^   private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:RoundsCommand	file:
+rcsid	SenderAuthConnection.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:SenderAuthConnection
+rcsid	SerializePlayerDB.java	/^      static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:SerializePlayerDB
+rcsid	SubSetACommand.java	/^   private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:SubSetACommand	file:
+rcsid	SubSetJCommand.java	/^   private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:SubSetJCommand	file:
+rcsid	SubSetKCommand.java	/^   private static String rcsid = "$Revision: 1.1 $";$/;"	f	class:SubSetKCommand	file:
+rcsid	TransactionConfirmConnection.java	/^   static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:TransactionConfirmConnection
+rcsid	War.java	/^      static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:War
+rcsid	WarDefendConnection.java	/^      static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:WarDefendConnection
+rcsid	WarRunner.java	/^      static final String rcsid = "$Revision: 1.1 $";$/;"	f	class:WarRunner
+rcsis	GetCertificateCommand.java	/^	static final String rcsis = "$Revision: 1.1 $";$/;"	f	class:GetCertificateCommand
+readLine	MonitorSession.java	/^   String readLine() throws IOException {$/;"	m	class:MonitorSession
+reasonableHoldings	Economy.java	/^   boolean reasonableHoldings() {$/;"	m	class:Economy
+recoverPlayerDB	MonitorServer.java	/^   public static PlayerDB recoverPlayerDB() {$/;"	m	class:MonitorServer
+recurringClass	RecurringEvent.java	/^      Class recurringClass;$/;"	f	class:RecurringEvent
+recurringEvent	War.java	/^      RecurringEvent recurringEvent;$/;"	f	class:War
+recvPlayer	SenderAuthConnection.java	/^   Player wantedPlayer, recvPlayer;$/;"	f	class:SenderAuthConnection
+report	CommandException.java	/^      public void report(MonitorSession session) {$/;"	m	class:CommandException
+report	CommandException.java	/^      static public void report(MonitorSession session, String message) {$/;"	m	class:CommandException
+requestAuthorizeSet	RecieverAuthConnection.java	/^   public String requestAuthorizeSet() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+requestIdent	MonitorSession.java	/^   Player requestIdent() throws IOException, MonitorSessionException {$/;"	m	class:MonitorSession
+requestPubKey	RecieverAuthConnection.java	/^   public PubRSA requestPubKey() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+require	MonitorSession.java	/^   void require(String commandRequired)$/;"	m	class:MonitorSession
+requireVerifyAndExecute	MonitorSession.java	/^   public boolean requireVerifyAndExecute(String commandRequried)$/;"	m	class:MonitorSession
+resetMonitorPassword	Player.java	/^   public synchronized void resetMonitorPassword() {$/;"	m	class:Player
+resetTransferDirection	MonitorSession.java	/^   public void resetTransferDirection() {$/;"	m	class:MonitorSession
+resource	SynthesizeCommand.java	/^      String resource;$/;"	f	class:SynthesizeCommand
+resourceValue	Wealth.java	/^   ResourceValue resourceValue;$/;"	f	class:Resource
+resources	WarTruceOfferCommand.java	/^      Hashtable resources;$/;"	f	class:WarTruceOfferCommand
+response	TransactionResponseCommand.java	/^      String response;$/;"	f	class:TransactionResponseCommand
+response	TransferResponseCommand.java	/^   private String response;$/;"	f	class:TransferResponseCommand	file:
+results	TransferRequestCommand.java	/^   String results = "";$/;"	f	class:TransferRequestCommand
+rounds	RoundsCommand.java	/^   private int rounds;$/;"	f	class:RoundsCommand	file:
+run	AliveConnection.java	/^      public void run()$/;"	m	class:AliveConnection
+run	AwardResources.java	/^   public void run() {$/;"	m	class:AwardResources
+run	CheckForLiving.java	/^	public void run() {$/;"	m	class:CheckForLiving
+run	ClearCommandCounter.java	/^      public void run()$/;"	m	class:ClearCommandCounter
+run	ClientApplet.java	/^   public void run ()$/;"	m	class:Clients
+run	ContestTimer.java	/^   public void run () {$/;"	m	class:ReportTime
+run	IncomingConnectionHandler.java	/^   public void run() {$/;"	m	class:IncomingConnectionHandler
+run	MonitorServer.java	/^   public void run() {$/;"	m	class:MonitorServer
+run	RecurredEvent.java	/^      void run();$/;"	m	interface:RecurredEvent
+run	RecurringEvent.java	/^      public void run()$/;"	m	class:RecurringEvent
+run	SerializePlayerDB.java	/^      public void run()$/;"	m	class:SerializePlayerDB
+run	Timer.java	/^   public void run() {$/;"	m	class:Timer
+run	TransactionConfirmConnection.java	/^   public void run() {$/;"	m	class:TransactionConfirmConnection
+run	WarDefendConnection.java	/^      public void run()$/;"	m	class:WarDefendConnection
+run	WarRunner.java	/^      public void run()$/;"	m	class:WarRunner
+runner	ClientApplet.java	/^   Thread runner = null;$/;"	f	class:Clients
+rupyulars	MakeStandings.java	/^   double rupyulars;$/;"	f	class:MakeStandings
+s_secret	DHEngine.java	/^    private BigInteger s_secret;$/;"	f	class:DHEngine	file:
+sendAuthorizeSet	SenderAuthConnection.java	/^   public void sendAuthorizeSet(String authorizeSet) {$/;"	m	class:SenderAuthConnection
+sendComment	MonitorSession.java	/^   void sendComment(String s) {$/;"	m	class:MonitorSession
+sendComplete	MonitorSession.java	/^   void sendComplete() {  println(Directive.WAITING_DIRECTIVE);  }         $/;"	m	class:MonitorSession
+sendDirective	MonitorSession.java	/^   public void sendDirective(String directive, String data) {$/;"	m	class:MonitorSession
+sendError	MonitorSession.java	/^   public void sendError(String error) {$/;"	m	class:MonitorSession
+sendErrorOrComment	MonitorSession.java	/^   public void sendErrorOrComment(boolean reportProblemsAsCommandError, $/;"	m	class:MonitorSession
+sendPublicKey	SenderAuthConnection.java	/^   public void sendPublicKey(PubRSA key) {$/;"	m	class:SenderAuthConnection
+sendResult	MonitorSession.java	/^   public void sendResult(String result) {$/;"	m	class:MonitorSession
+sendRounds	RecieverAuthConnection.java	/^   public void sendRounds(int r) {$/;"	m	class:RecieverAuthConnection
+sendSubSetJ	SenderAuthConnection.java	/^   public void sendSubSetJ(String j) {$/;"	m	class:SenderAuthConnection
+sendSubSetK	SenderAuthConnection.java	/^   public void sendSubSetK(String k) {$/;"	m	class:SenderAuthConnection
+sendSubsetA	RecieverAuthConnection.java	/^   public void sendSubsetA(String subSetA) {$/;"	m	class:RecieverAuthConnection
+senderPlayer	RecieverAuthConnection.java	/^   Player wantedPlayer, isPlayer, senderPlayer;$/;"	f	class:RecieverAuthConnection
+sendit	ClientApplet.java	/^   Button sendit, leave, openit;$/;"	f	class:ClientApplet
+sendout	ClientApplet.java	/^   TextField sendout, status;$/;"	f	class:ClientApplet
+sendout	ClientApplet.java	/^   TextField sendout, status;$/;"	f	class:Clients
+server	IncomingConnectionHandler.java	/^   MonitorServer server;$/;"	f	class:IncomingConnectionHandler
+session	IncomingConnectionHandler.java	/^   PassiveMonitorSession session = null;$/;"	f	class:IncomingConnectionHandler
+session	OutgoingConnectionHandler.java	/^   ActiveMonitorSession session = null;$/;"	f	class:OutgoingConnectionHandler
+setAuthorizeSet	MonitorSession.java	/^   public void setAuthorizeSet(String a) {$/;"	m	class:MonitorSession
+setClientNull	ClientApplet.java	/^   public void setClientNull () { client = null; }$/;"	m	class:ClientApplet
+setCompletedNormally	ConnectionHandler.java	/^   protected void setCompletedNormally() {$/;"	m	class:ConnectionHandler
+setDHExchangeKey	MonitorSession.java	/^   boolean setDHExchangeKey(DHKey dhKey, String key) {$/;"	m	class:MonitorSession
+setEncrypted	Player.java	/^   public void setEncrypted (boolean e) {  usingEncryption = e;  }$/;"	m	class:Player
+setExchangeKey	DHEngine.java	/^    public boolean setExchangeKey(String their_key) {$/;"	m	class:DHEngine
+setInetAddressAndPort	Player.java	/^   synchronized void setInetAddressAndPort(InetAddress address, int port) {$/;"	m	class:Player
+setMarketValue	ResourceValue.java	/^   synchronized void  setMarketValue(double m) {$/;"	m	class:ResourceValue
+setNext	Command.java	/^   public void setNext(Command n) {$/;"	m	class:Command
+setPlayerPassword	Player.java	/^   private void setPlayerPassword(String newPassword) {$/;"	m	class:Player	file:
+setPriority	RecurredEvent.java	/^      void setPriority(int newPriority);$/;"	m	interface:RecurredEvent
+setRecurringEvent	War.java	/^      void setRecurringEvent(RecurringEvent re)$/;"	m	class:War
+setSubSetA	MonitorSession.java	/^   public void setSubSetA(String a) {$/;"	m	class:MonitorSession
+setSubSetJ	MonitorSession.java	/^   public void setSubSetJ(String j) {$/;"	m	class:MonitorSession
+setSubSetK	MonitorSession.java	/^   public void setSubSetK(String k) {$/;"	m	class:MonitorSession
+setTransfer	MonitorSession.java	/^   public void setTransfer() {$/;"	m	class:MonitorSession
+setTransferAuthorized	MonitorSession.java	/^   public void setTransferAuthorized() {$/;"	m	class:MonitorSession
+setTransferDirection	MonitorSession.java	/^   public void setTransferDirection() {$/;"	m	class:MonitorSession
+setTransferPubKey	MonitorSession.java	/^   public void setTransferPubKey(BigInteger v, BigInteger n) {$/;"	m	class:MonitorSession
+setTransferRounds	MonitorSession.java	/^   public void setTransferRounds(int i) {$/;"	m	class:MonitorSession
+shaOfPlayerPassword	Player.java	/^   String playerPassword, shaOfPlayerPassword;$/;"	f	class:Player
+shutdownConnection	SenderAuthConnection.java	/^   public void shutdownConnection() throws MonitorSessionException {$/;"	m	class:SenderAuthConnection
+sign	RSA.java	/^	public String sign(String pt) {$/;"	m	class:RSA
+signNum	RSA.java	/^	public BigInteger signNum(BigInteger m) {$/;"	m	class:RSA
+size	SubSetJCommand.java	/^   int size = 0;$/;"	f	class:SubSetJCommand
+size	SubSetKCommand.java	/^   int size = 0;$/;"	f	class:SubSetKCommand
+socket	ClientApplet.java	/^   Socket socket = null;$/;"	f	class:Clients
+socket	ContestTimer.java	/^   DatagramSocket socket;$/;"	f	class:ReportTime
+sr	Cipher.java	/^   static SecureRandom sr = null;  \/* This is expensive.  We only need one *\/$/;"	f	class:Cipher
+sr	DHEngine.java	/^    static SecureRandom sr = null; \/* This is expensive.  We only need one *\/$/;"	f	class:DHEngine
+start	ContestTimer.java	/^   public void start () {$/;"	m	class:ReportTimeStarter
+start	RecurredEvent.java	/^      void start();$/;"	m	interface:RecurredEvent
+startWarThread	War.java	/^      void startWarThread()$/;"	m	class:War
+status	ClientApplet.java	/^   TextField sendout, status;$/;"	f	class:ClientApplet
+status	ClientApplet.java	/^   TextField sendout, status;$/;"	f	class:Clients
+subset	AuthorizeSetCommand.java	/^   String subset;$/;"	f	class:AuthorizeSetCommand
+subset	SubSetACommand.java	/^   String subset;$/;"	f	class:SubSetACommand
+subset	SubSetJCommand.java	/^   String subset;$/;"	f	class:SubSetJCommand
+subset	SubSetKCommand.java	/^   String subset;$/;"	f	class:SubSetKCommand
+subsetAsize	MonitorSession.java	/^   int subsetAsize;$/;"	f	class:MonitorSession
+synthesize	Wealth.java	/^   public boolean synthesize(String product)$/;"	m	class:Wealth
+synthesize	Wealth.java	/^   public boolean synthesize(Wealth wealth)$/;"	m	class:Computers
+synthesize	Wealth.java	/^   public boolean synthesize(Wealth wealth)$/;"	m	class:Vehicles
+synthesize	Wealth.java	/^   public boolean synthesize(Wealth wealth)$/;"	m	class:Weapons
+synthesize	Wealth.java	/^   public synchronized boolean synthesize(Wealth wealth)$/;"	m	class:Resource
+takein	ClientApplet.java	/^   TextArea takein;   $/;"	f	class:Clients
+takein	ClientApplet.java	/^   TextArea takein;$/;"	f	class:ClientApplet
+target	ContestTimer.java	/^   long target;$/;"	f	class:ReportTimeStarter
+targetPlayer	GetCertificateCommand.java	/^	String targetPlayer;$/;"	f	class:GetCertificateCommand
+terminateConnection	ConnectionHandler.java	/^   protected void terminateConnection() {$/;"	m	class:ConnectionHandler
+terminateConnection	IncomingConnectionHandler.java	/^   protected void terminateConnection() {$/;"	m	class:IncomingConnectionHandler
+terminateConnection	OutgoingConnectionHandler.java	/^   protected void terminateConnection() {$/;"	m	class:OutgoingConnectionHandler
+timer	ConnectionHandler.java	/^   Timer timer; $/;"	f	class:ConnectionHandler
+timer	ContestTimer.java	/^   ReportTimeStarter timer;$/;"	f	class:ReportTime
+toString	DHEngine.java	/^    public String toString() {$/;"	m	class:DHEngine
+toString	PlantDHKey.java	/^   public String toString() {$/;"	m	class:DHKey
+tokenizeIncoming	Command.java	/^   private static String[] tokenizeIncoming(String commandLine) {$/;"	m	class:Command	file:
+totalHeldByMonitor	ResourceValue.java	/^   long totalHeldByMonitor;$/;"	f	class:ResourceValue
+totalInSystem	ResourceValue.java	/^   long totalInSystem;$/;"	f	class:ResourceValue
+trade	Economy.java	/^   synchronized boolean trade(Player player, long amountFrom)$/;"	m	class:Economy
+tradeConnection	TradeRequestCommand.java	/^   TransactionConfirmConnection tradeConnection;$/;"	f	class:TradeRequestCommand
+tradeData	TradeRequestCommand.java	/^   String tradeData;$/;"	f	class:TradeRequestCommand
+tradeData	TransferRequestCommand.java	/^   String tradeData;$/;"	f	class:TransferRequestCommand
+transFrom	MonitorSession.java	/^   String          transTo, transFrom;$/;"	f	class:MonitorSession
+transTo	MonitorSession.java	/^   String          transTo, transFrom;$/;"	f	class:MonitorSession
+transactionData	TransactionConfirmConnection.java	/^   String transactionData;$/;"	f	class:TransactionConfirmConnection
+transferAuthorizeSet	MonitorSession.java	/^   String transferAuthorizeSet;$/;"	f	class:MonitorSession
+transferAuthorized	MonitorSession.java	/^   boolean transferAuthorized;$/;"	f	class:MonitorSession
+transferAuthorized	RecieverAuthConnection.java	/^   public void transferAuthorized() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+transferConnection	MonitorSession.java	/^   OutgoingConnectionHandler transferConnection;$/;"	f	class:MonitorSession
+transferData	RecieverAuthConnection.java	/^   String transferData;$/;"	f	class:RecieverAuthConnection
+transferData	SenderAuthConnection.java	/^   String transferData;$/;"	f	class:SenderAuthConnection
+transferDeclined	RecieverAuthConnection.java	/^   public void transferDeclined() throws MonitorSessionException {$/;"	m	class:RecieverAuthConnection
+transferDirection	MonitorSession.java	/^   public boolean transferDirection() {$/;"	m	class:MonitorSession
+transferKey	MonitorSession.java	/^   PubRSA transferKey;$/;"	f	class:MonitorSession
+transferRounds	MonitorSession.java	/^   int transferRounds;$/;"	f	class:MonitorSession
+transferSubsetA	MonitorSession.java	/^   String transferSubsetA;$/;"	f	class:MonitorSession
+transferSubsetJ	MonitorSession.java	/^   String transferSubsetJ;$/;"	f	class:MonitorSession
+transferSubsetK	MonitorSession.java	/^   String transferSubsetK;$/;"	f	class:MonitorSession
+transferring	MonitorSession.java	/^   public boolean transferring() {$/;"	m	class:MonitorSession
+transmitit	ClientApplet.java	/^   public void transmitit()$/;"	m	class:Clients
+truce	War.java	/^      synchronized boolean truce(Hashtable resources, Player receiver,$/;"	m	class:War
+truceConnection	WarTruceOfferCommand.java	/^      TransactionConfirmConnection truceConnection;$/;"	f	class:WarTruceOfferCommand
+truceWar	Player.java	/^   void truceWar () { warsTruce++; }$/;"	m	class:Player
+trucedWar	Player.java	/^   void trucedWar(long chg) { warsTruce += chg; }$/;"	m	class:Player
+unsetCompletedNormally	ConnectionHandler.java	/^   protected void unsetCompletedNormally() {$/;"	m	class:ConnectionHandler
+updateStatistics	Economy.java	/^   public synchronized void updateStatistics() {$/;"	m	class:Economy
+usingEncryption	Player.java	/^   boolean usingEncryption;$/;"	f	class:Player
+v	PublicKeyCommand.java	/^	private BigInteger v, n;$/;"	f	class:PublicKeyCommand	file:
+validCommands	Command.java	/^   static ValidCommandHash validCommands = new ValidCommandHash();$/;"	f	class:Command
+vehicles	Command.java	/^   int vehicles, weapons;$/;"	f	class:WarCommand
+vehicles	DefendCommand.java	/^      int weapons, vehicles;$/;"	f	class:DefendCommand
+vehicles	WarDefendConnection.java	/^      int vehicles, weapons;$/;"	f	class:WarDefendConnection
+verify	AliveCommand.java	/^      public boolean verify(MonitorSession session)$/;"	m	class:AliveCommand
+verify	AuthorizeSetCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:AuthorizeSetCommand
+verify	ChangePasswordCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:ChangePasswordCommand
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) { return true; }$/;"	m	class:Command
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) {$/;"	m	class:PlayerHostPortCommand
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) {$/;"	m	class:PlayerMonitorPasswordCrackCommand
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) {$/;"	m	class:PlayerStatusCrackCommand
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) {$/;"	m	class:RandomPlayerHostPortCommandCommand
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) {$/;"	m	class:WarCommand
+verify	Command.java	/^   public boolean verify(MonitorSession monitorSession) {$/;"	m	class:WarStatusCommand
+verify	Command.java	/^   public boolean verify(MonitorSession session) {  return true;  }$/;"	m	class:ValuesCommand
+verify	DefendCommand.java	/^      public boolean verify(MonitorSession monitorSession)$/;"	m	class:DefendCommand
+verify	HostPortCommand.java	/^      public boolean verify(MonitorSession session)$/;"	m	class:HostPortCommand
+verify	IdentCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:IdentCommand
+verify	PlayerPasswordCommand.java	/^      public boolean verify(MonitorSession session)$/;"	m	class:PlayerPasswordCommand
+verify	PublicKeyCommand.java	/^	public boolean verify(MonitorSession session) {$/;"	m	class:PublicKeyCommand
+verify	RoundsCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:RoundsCommand
+verify	SignOffCommand.java	/^      public boolean verify(MonitorSession session)$/;"	m	class:SignOffCommand
+verify	SubSetACommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:SubSetACommand
+verify	SubSetJCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:SubSetJCommand
+verify	SubSetKCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:SubSetKCommand
+verify	SynthesizeCommand.java	/^      public boolean verify(MonitorSession session)$/;"	m	class:SynthesizeCommand
+verify	TradeRequestCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:TradeRequestCommand
+verify	TransferRequestCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:TransferRequestCommand
+verify	TransferResponseCommand.java	/^   public boolean verify(MonitorSession session) {$/;"	m	class:TransferResponseCommand
+verify	WarTruceOfferCommand.java	/^      public boolean verify(MonitorSession session)$/;"	m	class:WarTruceOfferCommand
+verifyAlive	ActiveMonitorSession.java	/^   public boolean verifyAlive(Player playerWeThoughtThisWas)$/;"	m	class:ActiveMonitorSession
+verifySig	PubRSA.java	/^	public boolean verifySig(BigInteger m, BigInteger s) {$/;"	m	class:PubRSA
+verifyTransaction	ActiveMonitorSession.java	/^   public boolean verifyTransaction(Player playerForTransaction,$/;"	m	class:ActiveMonitorSession
+victim	War.java	/^      Player attacker, victim;$/;"	f	class:War
+victimPlayer	WarDefendConnection.java	/^      Player victimPlayer;$/;"	f	class:WarDefendConnection
+victimVehicles	War.java	/^      int victimWeapons, victimVehicles;$/;"	f	class:War
+victimWeapons	War.java	/^      int victimWeapons, victimVehicles;$/;"	f	class:War
+wantedPlayer	RecieverAuthConnection.java	/^   Player wantedPlayer, isPlayer, senderPlayer;$/;"	f	class:RecieverAuthConnection
+wantedPlayer	SenderAuthConnection.java	/^   Player wantedPlayer, recvPlayer;$/;"	f	class:SenderAuthConnection
+war	Command.java	/^   War    war;$/;"	f	class:WarStatusCommand
+war	WarRunner.java	/^      War war;$/;"	f	class:WarRunner
+warOver	War.java	/^      boolean warOver;$/;"	f	class:War
+wars	Player.java	/^   Hashtable wars;$/;"	f	class:Player
+warsDeclared	Player.java	/^   int warsDeclared, warsLost, warsWon;$/;"	f	class:Player
+warsFought	Player.java	/^   long warsFought, warsTruce;$/;"	f	class:Player
+warsLost	Player.java	/^   int warsDeclared, warsLost, warsWon;$/;"	f	class:Player
+warsTruce	Player.java	/^   long warsFought, warsTruce;$/;"	f	class:Player
+warsWon	Player.java	/^   int warsDeclared, warsLost, warsWon;$/;"	f	class:Player
+wealth	Player.java	/^   Wealth wealth;$/;"	f	class:Player
+weapons	Command.java	/^   int vehicles, weapons;$/;"	f	class:WarCommand
+weapons	DefendCommand.java	/^      int weapons, vehicles;$/;"	f	class:DefendCommand
+weapons	WarDefendConnection.java	/^      int vehicles, weapons;$/;"	f	class:WarDefendConnection
+whoBeatWhom	War.java	/^      synchronized void whoBeatWhom(Player winner, Player loser)$/;"	m	class:War
+whomIamTiming	Timer.java	/^   TimedExistance whomIamTiming = null;$/;"	f	class:Timer
+winnerIdent	War.java	/^      String winnerIdent;$/;"	f	class:War
+wonWar	Player.java	/^   void wonWar() { warsWon++;  }$/;"	m	class:Player
+x	DHEngine.java	/^    private BigInteger x;     \/* This is our personal secret Key *\/$/;"	f	class:DHEngine	file:
+x_pub	DHEngine.java	/^    private BigInteger x_pub; \/* This is our exchange Key *\/$/;"	f	class:DHEngine	file:

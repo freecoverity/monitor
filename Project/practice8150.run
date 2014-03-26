@@ -1,0 +1,4 @@
+#!/bin/bash
+ulimit -c 0
+nohup java -Djava.net.preferIPv4Stack=true -ss1m -ms96m -mx156m MonitorServer 8150 NEW DYNAMIC ../Final  >& ../logs/practice.log
+#nohup java -Djava.net.preferIPv4Stack=true -ss1m -ms96m -mx156m MonitorServer 8150 RECOVER DYNAMIC ../Final  >& ../logs/practice.log
